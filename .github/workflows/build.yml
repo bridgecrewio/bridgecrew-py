@@ -1,0 +1,37 @@
+name: build
+on:
+  schedule:
+    - cron:  '0 10 * * *'
+jobs:
+  get-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch release version
+        run: |
+          checkov_version=$(curl -sL https://api.github.com/repos/bridgecrewio/checkov/tags | jq -r '.[0]["name"]' )
+          echo "version = '$checkov_version'" > 'bridgecrew/version.py'
+      - name: Check for modified files
+        id: git-check
+        run: echo ::set-output name=modified::$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)
+      - name: Commit latest release version
+        if: steps.git-check.outputs.modified == 'true'
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git commit -am "New release version"
+          new_tag=$(curl -sL https://api.github.com/repos/bridgecrewio/checkov/tags | jq -r '.[0]["name"]' )
+          git tag $new_tag
+          git push origin $new_tag
+      - name: build package
+        if: steps.git-check.outputs.modified == 'true'
+        run: |
+          pipenv run python setup.py sdist bdist_wheel
+      - name: Publish a Python distribution to PyPI
+        if: steps.git-check.outputs.modified == 'true'
+        uses: pypa/gh-action-pypi-publish@master
+        with:
+          user: __token__
+          password: ${{ secrets.pypi_password }}
