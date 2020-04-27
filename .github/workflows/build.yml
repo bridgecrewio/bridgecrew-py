@@ -1,7 +1,7 @@
 name: build
 on:
   schedule:
-    - cron:  '*/10 * * * *'
+    - cron:  '* */12 * * *'
 jobs:
   get-version:
     runs-on: ubuntu-latest
