@@ -26,6 +26,11 @@ jobs:
           new_tag=$(curl -sL https://api.github.com/repos/bridgecrewio/checkov/tags | jq -r '.[0]["name"]' )
           git tag $new_tag
           git push origin $new_tag
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+      - uses: dschep/install-pipenv-action@v1
       - name: build package
         if: steps.git-check.outputs.modified == 'true'
         run: |
