@@ -1,7 +1,6 @@
 name: build
-on:
-  schedule:
-    - cron:  '* */12 * * *'
+on: repository_dispatch
+
 jobs:
   get-version:
     runs-on: ubuntu-latest
