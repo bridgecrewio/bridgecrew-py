@@ -17,7 +17,7 @@ jobs:
           checkov_version=$(curl -sL https://api.github.com/repos/bridgecrewio/checkov/tags | jq -r '.[0]["name"]' )
           echo "version = '$checkov_version'" > 'bridgecrew/version.py'
           echo "version = '$checkov_version'"
-          new_tag = $checkov_version
+          new_tag=$checkov_version
           echo "bridgecrew==$new_tag" > 'kubernetes/requirements.txt'
 
           git commit -m "New release version '$checkov_version'" bridgecrew/version.py kubernetes/requirements.txt || echo "No changes to commit"
