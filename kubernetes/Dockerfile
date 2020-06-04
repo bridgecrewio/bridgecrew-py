@@ -1,6 +1,8 @@
 FROM python
 
-RUN pip install bridgecrew
+COPY kubernetes/requirements.txt /requirements.txt
+
+RUN pip install -r /requirements.txt
 
 RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl \
     && chmod +x kubectl && mv kubectl /usr/local/bin
