@@ -10,7 +10,7 @@ RUN groupadd -g 12000 -r bridgecrew && useradd -u 12000 --no-log-init -r -g brid
 RUN mkdir /data && mkdir /app && mkdir /home/bridgecrew
 RUN chown bridgecrew:bridgecrew /data /app /home/bridgecrew
 
-COPY run_bridgecrew.sh /app
+COPY kubernetes/run_bridgecrew.sh /app
 RUN chown bridgecrew:bridgecrew /app/run_bridgecrew.sh && chmod +x /app/run_bridgecrew.sh
 
 ENTRYPOINT ["/app/run_bridgecrew.sh"]
