@@ -87,3 +87,11 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           tags: "latest,${{ env.RELEASE_VERSION }}"
           dockerfile: kubernetes/Dockerfile
+  update-bridgecrew-py-projects:
+    needs: publish-bridgecrew-dockerhub
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: update bridgecrew release
+        run: |
+          curl -XPOST -u "${{ secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/bridgecrewio/bridgecrew-action/dispatches --data '{"event_type": "build"}'
