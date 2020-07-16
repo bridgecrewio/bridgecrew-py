@@ -28,6 +28,9 @@ serviceaccounts
 services
 statefulsets"
 
+export BC_SOURCE=kubernetesWorkloads
+
+
 for resource in $RESOURCES;
 do
   kubectl get $resource --all-namespaces -oyaml > /data/runtime.${resource}.yaml
