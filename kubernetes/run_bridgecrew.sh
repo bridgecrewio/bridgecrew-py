@@ -36,6 +36,13 @@ do
   kubectl get $resource --all-namespaces -oyaml > /data/runtime.${resource}.yaml
 done
 
+# Skip namespaces if exists 
+if [ -f /etc/bridgecrew/skip ] && [ -s /etc/bridgecrew/skip ]; then
+  skip="--skip-check $(cat /etc/bridgecrew/skip)" 
+else
+  skip=""
+fi
+
 if [ -f /etc/bridgecrew/apikey ]; then
   apikey=$(cat /etc/bridgecrew/apikey)
   if [ -f /etc/bridgecrew/repoid ]; then
@@ -44,9 +51,8 @@ if [ -f /etc/bridgecrew/apikey ]; then
     repoid="runtime/unknown"
   fi
 
-  bridgecrew -s -d /data --bc-api-key "$apikey" --repo-id "$repoid" --branch runtime
+  bridgecrew -s -d /data --bc-api-key "$apikey" --repo-id "$repoid" --branch runtime $skip
 else
-  bridgecrew -s -d /data
+  bridgecrew -s -d /data $skip
 fi
-
 
