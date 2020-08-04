@@ -27,7 +27,8 @@ setup(
         ]
     },
     install_requires=[
-        "checkov>={}".format(version)
+        "checkov>={}".format(version),
+        "bc-python-hcl2>=0.3.5"
     ],
     license="Apache License 2.0",
     name="bridgecrew",
