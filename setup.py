@@ -24,6 +24,8 @@ version = mod.version  # type: ignore
 setup(
     extras_require={
         "dev": [
+            "checkov>={}".format(version),
+            "bc-python-hcl2>=0.3.5"
         ]
     },
     install_requires=[
