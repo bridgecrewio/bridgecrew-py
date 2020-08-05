@@ -2,9 +2,11 @@ FROM  python:3.8-slim-buster
 
 COPY kubernetes/requirements.txt /requirements.txt
 
-RUN pip3 install -r /requirements.txt
 RUN apt-get update
 RUN apt install -y git curl
+
+RUN pip3 install -U bc-python-hcl2
+RUN pip3 install -U bridgecrew
 
 RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl \
     && chmod +x kubectl && mv kubectl /usr/local/bin
