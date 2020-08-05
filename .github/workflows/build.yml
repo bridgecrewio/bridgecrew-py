@@ -22,7 +22,7 @@ jobs:
 
           git commit -m "New release version '$checkov_version'" bridgecrew/version.py kubernetes/requirements.txt || echo "No changes to commit"
           git push origin
-          git tag $new_tag
+          git tag -f $new_tag
           git push origin $new_tag
   publish-package:
     needs: bump-version
