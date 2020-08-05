@@ -20,8 +20,8 @@ jobs:
           new_tag=$checkov_version
           echo "bc-python-hcl2>=0.3.5" > 'kubernetes/requirements.txt'
           echo "bridgecrew==$new_tag" >> 'kubernetes/requirements.txt'
-
-          git commit -m "New release version '$checkov_version'" bridgecrew/version.py kubernetes/requirements.txt || echo "No changes to commit"
+          pipenv update
+          git commit -m "New release version '$checkov_version'" bridgecrew/version.py kubernetes/requirements.txt Pipfile.lock || echo "No changes to commit"
           git push origin
           git tag -f $new_tag
           git push origin $new_tag

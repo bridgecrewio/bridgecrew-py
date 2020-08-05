@@ -3,6 +3,9 @@
 # Download all Kubernetes resources and scan with Bridgecrew Cloud CLI
 ################################################################################
 
+pip3 freeze
+bridgecrew -h
+
 # kubectl api-resources --verbs=list --namespaced -o name  | xargs -n1 -I{} bash -c "kubectl get {} --all-namespaces -oyaml && echo ---"
 RESOURCES="clusterroles
 clusterrolebindings
