@@ -9,7 +9,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Fetch release version
-      - uses: dschep/install-pipenv-action@v1
+        uses: dschep/install-pipenv-action@v1
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
