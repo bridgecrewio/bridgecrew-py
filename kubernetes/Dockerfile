@@ -14,7 +14,7 @@ RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s 
 RUN groupadd -g 12000 -r bridgecrew && useradd -u 12000 --no-log-init -r -g bridgecrew bridgecrew
 RUN mkdir /data && mkdir /app && mkdir /home/bridgecrew
 RUN chown bridgecrew:bridgecrew /data /app /home/bridgecrew
-RUN chmod -R a+w /usr/local/lib/python3.8/dist-packages/hcl2/
+RUN chmod -R a+w /usr/local/lib/python3.8/
 COPY kubernetes/run_bridgecrew.sh /app
 RUN chown bridgecrew:bridgecrew /app/run_bridgecrew.sh && chmod +x /app/run_bridgecrew.sh
 
