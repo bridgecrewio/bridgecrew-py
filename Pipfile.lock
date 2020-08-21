@@ -54,11 +54,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:18b32fd9f58a1f40816be87e3fb0920792fbf608cc5df0673d577335026d2a63",
-                "sha256:1b35d6a5fdcca9ad5ec7f273f1852474c75f7986e88c969b2a9f8d58a8514b21"
+                "sha256:6ef698e486ee498fe7096c676284d2f40c53f2f3333ccaf3280bf24194661f6a",
+                "sha256:e35f3561e20e6e6425dc13623a28e8dde61c95bc485e096bd0999a15cd907b7c"
             ],
             "index": "pypi",
-            "version": "==1.0.493"
+            "version": "==1.0.494"
         },
         "colorama": {
             "hashes": [
@@ -247,11 +247,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:18b32fd9f58a1f40816be87e3fb0920792fbf608cc5df0673d577335026d2a63",
-                "sha256:1b35d6a5fdcca9ad5ec7f273f1852474c75f7986e88c969b2a9f8d58a8514b21"
+                "sha256:6ef698e486ee498fe7096c676284d2f40c53f2f3333ccaf3280bf24194661f6a",
+                "sha256:e35f3561e20e6e6425dc13623a28e8dde61c95bc485e096bd0999a15cd907b7c"
             ],
             "index": "pypi",
-            "version": "==1.0.493"
+            "version": "==1.0.494"
         },
         "colorama": {
             "hashes": [
