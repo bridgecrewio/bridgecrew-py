@@ -8,6 +8,8 @@ checkov = "*"
 
 [packages]
 checkov = "*"
+sarif-om = "*"
+jschema_to_python = "*"
 
 [requires]
 python_version = "3.7"
