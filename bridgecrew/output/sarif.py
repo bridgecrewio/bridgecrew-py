@@ -1,4 +1,5 @@
 import datetime
+import os
 import sarif_om as om
 from checkov.common.output.report import Report
 from checkov.common.util.docs_generator import get_checks
@@ -7,7 +8,9 @@ from jschema_to_python.to_json import to_json
 from bridgecrew.version import version
 
 TS_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
-
+REVISION_ID = os.environ.get('GITHUB_SHA', '')
+# GITHUB_REPOSITORY = os.environ.get('GITHUB_REPOSITORY', '')
+# GITHUB_SERVER_URL = os.environ.get('GITHUB_SERVER_URL', '')
 
 class SarifReport(Report):
     def __init__(self, check_type):
@@ -18,7 +21,7 @@ class SarifReport(Report):
         self.parsing_errors = []
         self.repo_uri = ""
         self.branch = ""
-        self.revision_id = ""
+        self.revision_id = REVISION_ID
 
     def get_sarif_results(self):
         results = []
