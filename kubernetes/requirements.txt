@@ -1,2 +1,3 @@
 bc-python-hcl2>=0.3.5
+jschema-to-python>=1.2.3
 bridgecrew==1.0.525
