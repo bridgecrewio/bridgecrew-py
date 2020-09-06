@@ -26,13 +26,15 @@ setup(
         "dev": [
             "checkov>={}".format(version),
             "bc-python-hcl2>=0.3.5",
+            "sarif-om>=1.0.4",
             "jschema-to-python>=1.2.3"
         ]
     },
     install_requires=[
         "checkov>={}".format(version),
         "bc-python-hcl2>=0.3.5",
-        "jschema-to-python>=1.2.3"
+        "jschema-to-python>=1.2.3",
+        "sarif-om>=1.0.4"
     ],
     license="Apache License 2.0",
     name="bridgecrew",
