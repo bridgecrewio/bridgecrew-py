@@ -112,7 +112,9 @@ class SarifReport(Report):
             ],
         )
         serialized_log = to_json(log)
-        print(serialized_log)
+        with open("results.sarif","w") as f:
+            f.write(serialized_log)
+        self.print_console()
 
     def get_rules(self):
         get_checks("all")
