@@ -25,12 +25,14 @@ setup(
     extras_require={
         "dev": [
             "checkov>={}".format(version),
-            "bc-python-hcl2>=0.3.5"
+            "bc-python-hcl2>=0.3.5",
+            "jschema-to-python>=1.2.3"
         ]
     },
     install_requires=[
         "checkov>={}".format(version),
-        "bc-python-hcl2>=0.3.5"
+        "bc-python-hcl2>=0.3.5",
+        "jschema-to-python>=1.2.3"
     ],
     license="Apache License 2.0",
     name="bridgecrew",
