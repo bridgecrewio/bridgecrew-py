@@ -9,6 +9,8 @@ from bridgecrew.version import version
 
 TS_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 REVISION_ID = os.environ.get('GITHUB_SHA', '')
+
+
 # GITHUB_REPOSITORY = os.environ.get('GITHUB_REPOSITORY', '')
 # GITHUB_SERVER_URL = os.environ.get('GITHUB_SERVER_URL', '')
 
@@ -47,21 +49,26 @@ class SarifReport(Report):
 
     def check2result(self, check, state="fail"):
         location = om.Location(physical_location=om.PhysicalLocation(
-            artifact_location=om.ArtifactLocation(uri="{}/{}".format(self.repo_uri, check.file_path)),
+            artifact_location=om.ArtifactLocation(uri="{}{}".format(self.repo_uri, check.file_path)),
             region=om.Region(start_line=check.file_line_range[0], end_line=check.file_line_range[1], start_column=1,
                              end_column=1)))
 
-        partial_fingerprints = {"primaryLocationLineHash": "{}#{}#{}".format(check.file_path, check.check_id, check.resource)}
+        partial_fingerprints = {
+            "primaryLocationLineHash": "{}#{}#{}".format(check.file_path, check.check_id, check.resource)}
         if state == "skipped":
-            suppression = om.Suppression(state="accepted", justification=check.check_result['suppress_comment'])
+            suppression = om.Suppression(state="accepted", kind="inSource")
+            if 'suppress_comment' in check.check_result:
+                justification = check.check_result['suppress_comment']
+                suppression = om.Suppression(state="accepted", justification=justification, kind="inSource")
             result_record = om.Result(rule_id=check.check_id, message=om.Message(text=check.check_name),
-                                      partial_fingerprints=partial_fingerprints, locations=om.ArtifactLocation[location],
+                                      partial_fingerprints=partial_fingerprints,
+                                      locations=[location],
                                       suppressions=[suppression])
         if state == "fail":
             result_record = om.Result(rule_id=check.check_id, message=om.Message(text=check.check_name),
                                       partial_fingerprints=partial_fingerprints, locations=[location])
         if not check.guideline:
-            check.guideline="http://docs.bridgecrew.io"
+            check.guideline = "http://docs.bridgecrew.io"
         return result_record
 
     def print_sarif(self):
@@ -112,7 +119,7 @@ class SarifReport(Report):
             ],
         )
         serialized_log = to_json(log)
-        with open("results.sarif","w") as f:
+        with open("results.sarif", "w") as f:
             f.write(serialized_log)
         self.print_console()
 
