@@ -49,17 +49,17 @@ class SarifReport(Report):
 
     def check2result(self, check, state="fail"):
         location = om.Location(physical_location=om.PhysicalLocation(
-            artifact_location=om.ArtifactLocation(uri="{}{}".format(self.repo_uri, check.file_path)),
+            artifact_location=om.ArtifactLocation(uri=check.file_path, uri_base_id="PROJECTROOT"),
             region=om.Region(start_line=check.file_line_range[0], end_line=check.file_line_range[1], start_column=1,
                              end_column=1)))
 
         partial_fingerprints = {
             "primaryLocationLineHash": "{}#{}#{}".format(check.file_path, check.check_id, check.resource)}
         if state == "skipped":
-            suppression = om.Suppression(state="accepted", kind="inSource")
+            suppression = om.Suppression(kind="inSource")
             if 'suppress_comment' in check.check_result:
                 justification = check.check_result['suppress_comment']
-                suppression = om.Suppression(state="accepted", justification=justification, kind="inSource")
+                suppression = om.Suppression(justification=justification, kind="inSource")
             result_record = om.Result(rule_id=check.check_id, message=om.Message(text=check.check_name),
                                       partial_fingerprints=partial_fingerprints,
                                       locations=[location],
@@ -108,11 +108,18 @@ class SarifReport(Report):
                         ),
                     },
                     results=results,
+                    original_uri_base_ids={
+                        "PROJECTROOT": {
+                            "uri": self.repo_uri
+                        }},
                     version_control_provenance=[
                         om.VersionControlDetails(
                             repository_uri=self.repo_uri,
                             branch=self.branch,
                             revision_id=self.revision_id,
+                            mapped_to={
+                                "uriBaseId": "PROJECTROOT"
+                            }
                         )
                     ],
                 )
