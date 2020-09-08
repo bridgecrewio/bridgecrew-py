@@ -9,6 +9,9 @@ from bridgecrew.version import version
 
 TS_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 REVISION_ID = os.environ.get('GITHUB_SHA', '')
+import uuid
+
+GITHUB_RUN_ID = os.environ.get('GITHUB_RUN_ID', uuid.uuid4())
 
 
 # GITHUB_REPOSITORY = os.environ.get('GITHUB_REPOSITORY', '')
@@ -83,6 +86,7 @@ class SarifReport(Report):
                         description=om.Message(
                             text="Infrastructure as code static analysis results using Bridgecrew"
                         ),
+                        id=GITHUB_RUN_ID
                     ),
                     tool=om.Tool(
                         driver=om.ToolComponent(
