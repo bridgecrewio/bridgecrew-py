@@ -51,13 +51,14 @@ class SarifReport(Report):
         return results, list(rules.values())
 
     def check2result(self, check, state="fail"):
+        path = check.file_path[1:]
         location = om.Location(physical_location=om.PhysicalLocation(
-            artifact_location=om.ArtifactLocation(uri=check.file_path, uri_base_id="PROJECTROOT"),
+            artifact_location=om.ArtifactLocation(uri=path, uri_base_id="PROJECTROOT"),
             region=om.Region(start_line=check.file_line_range[0], end_line=check.file_line_range[1], start_column=1,
                              end_column=1)))
 
         partial_fingerprints = {
-            "primaryLocationLineHash": "{}#{}#{}".format(check.file_path, check.check_id, check.resource)}
+            "primaryLocationLineHash": "{}#{}#{}".format(path, check.check_id, check.resource)}
         if state == "skipped":
             suppression = om.Suppression(kind="inSource")
             if 'suppress_comment' in check.check_result:
