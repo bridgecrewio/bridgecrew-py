@@ -25,14 +25,14 @@ setup(
     extras_require={
         "dev": [
             "checkov>={}".format(version),
-            "bc-python-hcl2>=0.3.5",
+            "bc-python-hcl2>=0.3.10",
             "sarif-om>=1.0.4",
             "jschema-to-python>=1.2.3"
         ]
     },
     install_requires=[
         "checkov>={}".format(version),
-        "bc-python-hcl2>=0.3.5",
+        "bc-python-hcl2>=0.3.10",
         "jschema-to-python>=1.2.3",
         "sarif-om>=1.0.4"
     ],
