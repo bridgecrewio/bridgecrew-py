@@ -52,8 +52,8 @@ class SarifReport(Report):
         return results, list(rules.values())
 
     def check2result(self, check, state="fail"):
-        if self.directory != ".":
-            path = self.directory + check.file_path[1:]
+        if isinstance(self.directory,list) and self.directory[0] != ".":
+            path = self.directory[0] + check.file_path[1:]
         else:
             path = check.file_path[1:]
         location = om.Location(physical_location=om.PhysicalLocation(
