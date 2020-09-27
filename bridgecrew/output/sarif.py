@@ -58,7 +58,7 @@ class SarifReport(Report):
                              end_column=1)))
 
         partial_fingerprints = {
-            "primaryLocationLineHash": "{}#{}#{}".format(path, check.check_id, check.resource)}
+            "primaryLocationLineHash": "{}#{}".format(path, check.resource)}
         if state == "skipped":
             suppression = om.Suppression(kind="inSource")
             if 'suppress_comment' in check.check_result:
