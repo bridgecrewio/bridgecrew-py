@@ -27,6 +27,7 @@ class SarifReport(Report):
         self.repo_uri = ""
         self.branch = ""
         self.revision_id = REVISION_ID
+        self.directory = ""
 
     def get_sarif_results(self):
         results = []
@@ -51,7 +52,10 @@ class SarifReport(Report):
         return results, list(rules.values())
 
     def check2result(self, check, state="fail"):
-        path = check.file_path[1:]
+        if self.directory != ".":
+            path = self.directory + check.file_path[1:]
+        else:
+            path = check.file_path[1:]
         location = om.Location(physical_location=om.PhysicalLocation(
             artifact_location=om.ArtifactLocation(uri=path, uri_base_id="PROJECTROOT"),
             region=om.Region(start_line=check.file_line_range[0], end_line=check.file_line_range[1], start_column=1,
@@ -65,12 +69,13 @@ class SarifReport(Report):
                 justification = check.check_result['suppress_comment']
                 suppression = om.Suppression(justification=justification, kind="inSource")
             result_record = om.Result(rule_id=check.check_id, message=om.Message(text=check.check_name),
-                                      partial_fingerprints=partial_fingerprints,
+                                      # partial_fingerprints=partial_fingerprints,
                                       locations=[location],
                                       suppressions=[suppression])
         if state == "fail":
             result_record = om.Result(rule_id=check.check_id, message=om.Message(text=check.check_name),
-                                      partial_fingerprints=partial_fingerprints, locations=[location])
+                                      # partial_fingerprints=partial_fingerprints,
+                                      locations=[location])
         if not check.guideline:
             check.guideline = "http://docs.bridgecrew.io"
         return result_record

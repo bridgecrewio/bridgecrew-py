@@ -61,4 +61,5 @@ class CustomRunnerRegistry(RunnerRegistry):
         sarif_report.parsing_errors = report.parsing_errors
         sarif_report.repo_uri = "https://github.com/{}/".format(args.repo_id)
         sarif_report.branch = args.branch
+        sarif_report.directory = args.directory
         return sarif_report
