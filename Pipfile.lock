@@ -62,11 +62,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:a37d3fe15e33012f97c93a4db584434d7591855a4b804fbb34e1454fbff4cecf",
-                "sha256:e204551e35121be017c7e8fd54494c254dfdd8fd6469df3f10f84924441da376"
+                "sha256:54c9ebb0dedaae9d5482457496cc4982e3508f038897e474fa7126b13f538902",
+                "sha256:c170ffd6454d367ba29284164b704f1b7e2f072e64339c4b8fc494f43f4aac94"
             ],
             "index": "pypi",
-            "version": "==1.0.567"
+            "version": "==1.0.568"
         },
         "colorama": {
             "hashes": [
@@ -249,11 +249,11 @@
         },
         "urllib3": {
             "hashes": [
-                "sha256:a8a318824cc77d1fd4b2bec2ded92646630d7fe8619497b142c84a9e6f5a7293",
-                "sha256:f3c5fd51747d450d4dcf6f923c81f78f811aab8205fda64b0aba34a4e48b0745"
+                "sha256:91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a",
+                "sha256:e7983572181f5e1522d9c98453462384ee92a0be7fac5f1413a1e35c56cc0461"
             ],
             "markers": "python_version != '3.4'",
-            "version": "==1.25.7"
+            "version": "==1.25.10"
         },
         "zipp": {
             "hashes": [
@@ -303,11 +303,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:a37d3fe15e33012f97c93a4db584434d7591855a4b804fbb34e1454fbff4cecf",
-                "sha256:e204551e35121be017c7e8fd54494c254dfdd8fd6469df3f10f84924441da376"
+                "sha256:54c9ebb0dedaae9d5482457496cc4982e3508f038897e474fa7126b13f538902",
+                "sha256:c170ffd6454d367ba29284164b704f1b7e2f072e64339c4b8fc494f43f4aac94"
             ],
             "index": "pypi",
-            "version": "==1.0.567"
+            "version": "==1.0.568"
         },
         "colorama": {
             "hashes": [
@@ -450,11 +450,11 @@
         },
         "urllib3": {
             "hashes": [
-                "sha256:a8a318824cc77d1fd4b2bec2ded92646630d7fe8619497b142c84a9e6f5a7293",
-                "sha256:f3c5fd51747d450d4dcf6f923c81f78f811aab8205fda64b0aba34a4e48b0745"
+                "sha256:91056c15fa70756691db97756772bb1eb9678fa585d9184f24534b100dc60f4a",
+                "sha256:e7983572181f5e1522d9c98453462384ee92a0be7fac5f1413a1e35c56cc0461"
             ],
             "markers": "python_version != '3.4'",
-            "version": "==1.25.7"
+            "version": "==1.25.10"
         }
     }
 }
