@@ -62,11 +62,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:26196d386d8938a57ec4230642f595825d840fa7649f61cb973ae9619b933722",
-                "sha256:5bce0d7dc6042ba39da96c2f18be0b16c712533a2880d57f130abed4c172191d"
+                "sha256:09158821908790b7c4a57eef67ae1661a1d588496836b5c787c2959a5b286628",
+                "sha256:0bb74d1af1e25e51758457a8dfbeedb0a620f32fcc05511ee1f7d3201e553d59"
             ],
             "index": "pypi",
-            "version": "==1.0.587"
+            "version": "==1.0.588"
         },
         "colorama": {
             "hashes": [
@@ -166,11 +166,11 @@
         },
         "pbr": {
             "hashes": [
-                "sha256:14bfd98f51c78a3dd22a1ef45cf194ad79eee4a19e8e1a0d5c7f8e81ffe182ea",
-                "sha256:5adc0f9fc64319d8df5ca1e4e06eea674c26b80e6f00c530b18ce6a6592ead15"
+                "sha256:5fad80b613c402d5b7df7bd84812548b2a61e9977387a80a5fc5c396492b13c9",
+                "sha256:b236cde0ac9a6aedd5e3c34517b423cd4fd97ef723849da6b0d2231142d89c00"
             ],
             "markers": "python_version >= '2.6'",
-            "version": "==5.5.0"
+            "version": "==5.5.1"
         },
         "python-dateutil": {
             "hashes": [
@@ -318,11 +318,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:26196d386d8938a57ec4230642f595825d840fa7649f61cb973ae9619b933722",
-                "sha256:5bce0d7dc6042ba39da96c2f18be0b16c712533a2880d57f130abed4c172191d"
+                "sha256:09158821908790b7c4a57eef67ae1661a1d588496836b5c787c2959a5b286628",
+                "sha256:0bb74d1af1e25e51758457a8dfbeedb0a620f32fcc05511ee1f7d3201e553d59"
             ],
             "index": "pypi",
-            "version": "==1.0.587"
+            "version": "==1.0.588"
         },
         "colorama": {
             "hashes": [
