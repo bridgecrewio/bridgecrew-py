@@ -1,2 +1,2 @@
 bc-python-hcl2>=0.3.5
-bridgecrew==1.0.644
+bridgecrew==1.0.645
