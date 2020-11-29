@@ -29,7 +29,7 @@
                 "sha256:559848d68276103646cb3de223afca62f26ae0119a7f347eadc4a01ea9540eb0",
                 "sha256:f4a187dd09a011973ff0429e695ce1dbcae1cf3642944bf4bc64db7590ee56d8"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==0.3.11"
         },
         "boto3": {
@@ -62,11 +62,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:c02e519a0a0ef4dda38be5b94eafea5b21704217d6ad3701fef5892cd0f271f2",
-                "sha256:eca62a4caddd336519dbeacc32a4a1c0f1bcad7cf317bcfcee0f6c7aa7a18339"
+                "sha256:54fed03f4bd8109700102553708998b1cb6b5f761bea0977458e395b32659aa7",
+                "sha256:b1f71caff1acbea02f2ee05716ea93108e3e76be3009788aabfc0b4d54b3a91b"
             ],
             "index": "pypi",
-            "version": "==1.0.647"
+            "version": "==1.0.648"
         },
         "colorama": {
             "hashes": [
@@ -132,7 +132,7 @@
                 "sha256:590690d61efdd716ff82c39ca9a9d4209252adfe288a4b5721181050acbd4175",
                 "sha256:d9b8a46a0885337627a6430db287176970fff18ad421becec1d64cfc763c2099"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==3.1.0"
         },
         "jmespath": {
@@ -308,7 +308,7 @@
                 "sha256:102c24ef8f171fd729d46599845e95c7ab894a4cf45f5de11a44cc7444fb1108",
                 "sha256:ed5eee1974372595f9e416cc7bbeeb12335201d8081ca8a0743c954d4446e5cb"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==3.4.0"
         }
     },
@@ -318,7 +318,7 @@
                 "sha256:559848d68276103646cb3de223afca62f26ae0119a7f347eadc4a01ea9540eb0",
                 "sha256:f4a187dd09a011973ff0429e695ce1dbcae1cf3642944bf4bc64db7590ee56d8"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==0.3.11"
         },
         "boto3": {
@@ -351,11 +351,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:c02e519a0a0ef4dda38be5b94eafea5b21704217d6ad3701fef5892cd0f271f2",
-                "sha256:eca62a4caddd336519dbeacc32a4a1c0f1bcad7cf317bcfcee0f6c7aa7a18339"
+                "sha256:54fed03f4bd8109700102553708998b1cb6b5f761bea0977458e395b32659aa7",
+                "sha256:b1f71caff1acbea02f2ee05716ea93108e3e76be3009788aabfc0b4d54b3a91b"
             ],
             "index": "pypi",
-            "version": "==1.0.647"
+            "version": "==1.0.648"
         },
         "colorama": {
             "hashes": [
