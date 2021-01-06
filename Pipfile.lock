@@ -63,11 +63,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:63f8e5bf942830a1c2a56a78814bb915ba06ce4dc194e937d5060200468abf33",
-                "sha256:7d00739fc1b9bfe132997e384ca08586e6aaee095fdb60c9b2e95444d7ec0edb"
+                "sha256:3b1673e07d7bdc763ce68f4f1acad16e27a6c841f84dbd8d2ca0aef9f2a1a0da",
+                "sha256:cb1addfedeebea07f9799d8cdbf536aa25ef2c8f35433569b2d3211aa5978a8a"
             ],
             "index": "pypi",
-            "version": "==1.0.689"
+            "version": "==1.0.690"
         },
         "colorama": {
             "hashes": [
@@ -100,11 +100,11 @@
         },
         "gitpython": {
             "hashes": [
-                "sha256:6eea89b655917b500437e9668e4a12eabdcf00229a0df1762aabd692ef9b746b",
-                "sha256:befa4d101f91bad1b632df4308ec64555db684c360bd7d2130b4807d49ce86b8"
+                "sha256:42dbefd8d9e2576c496ed0059f3103dcef7125b9ce16f9d5f9c834aed44a1dac",
+                "sha256:867ec3dfb126aac0f8296b19fb63b8c4a399f32b4b6fafe84c4b10af5fa9f7b5"
             ],
             "markers": "python_version >= '3.4'",
-            "version": "==3.1.11"
+            "version": "==3.1.12"
         },
         "idna": {
             "hashes": [
@@ -349,11 +349,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:63f8e5bf942830a1c2a56a78814bb915ba06ce4dc194e937d5060200468abf33",
-                "sha256:7d00739fc1b9bfe132997e384ca08586e6aaee095fdb60c9b2e95444d7ec0edb"
+                "sha256:3b1673e07d7bdc763ce68f4f1acad16e27a6c841f84dbd8d2ca0aef9f2a1a0da",
+                "sha256:cb1addfedeebea07f9799d8cdbf536aa25ef2c8f35433569b2d3211aa5978a8a"
             ],
             "index": "pypi",
-            "version": "==1.0.689"
+            "version": "==1.0.690"
         },
         "colorama": {
             "hashes": [
@@ -386,11 +386,11 @@
         },
         "gitpython": {
             "hashes": [
-                "sha256:6eea89b655917b500437e9668e4a12eabdcf00229a0df1762aabd692ef9b746b",
-                "sha256:befa4d101f91bad1b632df4308ec64555db684c360bd7d2130b4807d49ce86b8"
+                "sha256:42dbefd8d9e2576c496ed0059f3103dcef7125b9ce16f9d5f9c834aed44a1dac",
+                "sha256:867ec3dfb126aac0f8296b19fb63b8c4a399f32b4b6fafe84c4b10af5fa9f7b5"
             ],
             "markers": "python_version >= '3.4'",
-            "version": "==3.1.11"
+            "version": "==3.1.12"
         },
         "idna": {
             "hashes": [
