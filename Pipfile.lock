@@ -63,11 +63,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:788f47a7294402c66fdcc86e54837a16f45b0b7bc0b5db96adcaf2fbdfc19458",
-                "sha256:c722f1791213f2daca4d0c88b5155bf3f0fdf9febdd91c3d925dd25cf24431bf"
+                "sha256:9a7a593a89dce9abbd0c50c43e95150e1ea9eab96c9c28af73537627afb7104a",
+                "sha256:e587744eccdc4fc1ef6362324784ae8224ebbb9649f75eb02c6ca75c6ab2b54c"
             ],
             "index": "pypi",
-            "version": "==1.0.694"
+            "version": "==1.0.695"
         },
         "colorama": {
             "hashes": [
@@ -116,11 +116,11 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:5c5a2720817414a6c41f0a49993908068243ae02c1635a228126519b509c8aed",
-                "sha256:bf792d480abbd5eda85794e4afb09dd538393f7d6e6ffef6e9f03d2014cf9450"
+                "sha256:ace61d5fc652dc280e7b6b4ff732a9c2d40db2c0f92bc6cb74e07b73d53a1771",
+                "sha256:fa5daa4477a7414ae34e95942e4dd07f62adf589143c875c133c1e53c4eff38d"
             ],
             "markers": "python_version < '3.8'",
-            "version": "==3.3.0"
+            "version": "==3.4.0"
         },
         "jmespath": {
             "hashes": [
@@ -270,11 +270,11 @@
         },
         "tqdm": {
             "hashes": [
-                "sha256:54985cecd51071f3faa2a07a862c24be1426f925353d82b3dde03f7609d63248",
-                "sha256:86ca00c4942c3b3dc7ed31bae44cd2db38ef85ca05a7920f6a6c52ad7fcac904"
+                "sha256:4621f6823bab46a9cc33d48105753ccbea671b68bab2c50a9f0be23d4065cb5a",
+                "sha256:fe3d08dd00a526850568d542ff9de9bbc2a09a791da3c334f3213d8d0bbbca65"
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-            "version": "==4.55.2"
+            "version": "==4.56.0"
         },
         "typing-extensions": {
             "hashes": [
@@ -349,11 +349,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:788f47a7294402c66fdcc86e54837a16f45b0b7bc0b5db96adcaf2fbdfc19458",
-                "sha256:c722f1791213f2daca4d0c88b5155bf3f0fdf9febdd91c3d925dd25cf24431bf"
+                "sha256:9a7a593a89dce9abbd0c50c43e95150e1ea9eab96c9c28af73537627afb7104a",
+                "sha256:e587744eccdc4fc1ef6362324784ae8224ebbb9649f75eb02c6ca75c6ab2b54c"
             ],
             "index": "pypi",
-            "version": "==1.0.694"
+            "version": "==1.0.695"
         },
         "colorama": {
             "hashes": [
@@ -516,11 +516,11 @@
         },
         "tqdm": {
             "hashes": [
-                "sha256:54985cecd51071f3faa2a07a862c24be1426f925353d82b3dde03f7609d63248",
-                "sha256:86ca00c4942c3b3dc7ed31bae44cd2db38ef85ca05a7920f6a6c52ad7fcac904"
+                "sha256:4621f6823bab46a9cc33d48105753ccbea671b68bab2c50a9f0be23d4065cb5a",
+                "sha256:fe3d08dd00a526850568d542ff9de9bbc2a09a791da3c334f3213d8d0bbbca65"
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-            "version": "==4.55.2"
+            "version": "==4.56.0"
         },
         "update-checker": {
             "hashes": [
