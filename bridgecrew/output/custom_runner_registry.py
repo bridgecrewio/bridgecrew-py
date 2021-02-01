@@ -10,7 +10,7 @@ class CustomRunnerRegistry(RunnerRegistry):
         super().__init__(banner, runner_filter, *runners)
         OUTPUT_CHOICES.append("sarif")
 
-    def print_reports(self, scan_reports, args):
+    def print_reports(self, scan_reports, args, url = None):
         if args.output not in OUTPUT_CHOICES:
             print(f"{self.banner}\n")
         exit_codes = []
