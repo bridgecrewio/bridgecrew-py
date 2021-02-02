@@ -19,6 +19,8 @@ class CustomRunnerRegistry(RunnerRegistry):
         if args.output == 'sarif':
             report = self.report2sarif_report(merged_reports, args)
             report.print_sarif()
+            if url:
+                print("More details: {}".format(url))
         else:
             for report in scan_reports:
                 if not report.is_empty():

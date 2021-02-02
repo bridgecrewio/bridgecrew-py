@@ -11,7 +11,7 @@ TS_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 REVISION_ID = os.environ.get('GITHUB_SHA', '')
 import uuid
 
-GITHUB_RUN_ID = os.environ.get('GITHUB_RUN_ID', uuid.uuid4())
+GITHUB_RUN_ID = os.environ.get('GITHUB_RUN_ID', str(uuid.uuid4()))
 
 
 # GITHUB_REPOSITORY = os.environ.get('GITHUB_REPOSITORY', '')
