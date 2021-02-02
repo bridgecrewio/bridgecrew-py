@@ -31,8 +31,12 @@ class CustomRunnerRegistry(RunnerRegistry):
                     elif args.output == 'sarif':
                         report = self.report2sarif_report(report, args)
                         report.print_sarif()
+                        if url:
+                            print("More details: {}".format(url))
                     else:
                         report.print_console(is_quiet=args.quiet)
+                        if url:
+                            print("More details: {}".format(url))
                 exit_codes.append(report.get_exit_code(args.soft_fail))
         if args.output == "json":
             if len(report_jsons) == 1:
