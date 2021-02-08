@@ -19,6 +19,7 @@ class CustomRunnerRegistry(RunnerRegistry):
         if args.output == 'sarif':
             report = self.report2sarif_report(merged_reports, args)
             report.print_sarif()
+            exit_codes.append(report.get_exit_code(args.soft_fail))
             if url:
                 print("More details: {}".format(url))
         else:
