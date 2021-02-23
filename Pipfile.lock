@@ -65,11 +65,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1694658652bb08ff8853399f3f7dd9a8e567dd5d746506a1c0628c52c44626a2",
-                "sha256:6709e4f16faa83658bbea31dae5d27d8663a29a7e9351fa6f2c2efe4010573be"
+                "sha256:9cf876e5cea9aa2ba541207dabc21f13ce2a23d475971e65f61f7453f298e6c6",
+                "sha256:dfdb597b6292b307d7f11c5a4c3447d59e08dc70d9adf90181cf2064409fc1aa"
             ],
             "index": "pypi",
-            "version": "==1.0.807"
+            "version": "==1.0.808"
         },
         "colorama": {
             "hashes": [
@@ -118,11 +118,11 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:ace61d5fc652dc280e7b6b4ff732a9c2d40db2c0f92bc6cb74e07b73d53a1771",
-                "sha256:fa5daa4477a7414ae34e95942e4dd07f62adf589143c875c133c1e53c4eff38d"
+                "sha256:2a851a30a1fd847cedd68c7c6bfb90e765db6265852f574e9d88bb40f96924ab",
+                "sha256:31c5c29f17d064cc71bf6a005a8b25b3332787ab2e7362d5d258800ac825f471"
             ],
             "markers": "python_version < '3.8'",
-            "version": "==3.4.0"
+            "version": "==3.5.0"
         },
         "jmespath": {
             "hashes": [
@@ -362,11 +362,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1694658652bb08ff8853399f3f7dd9a8e567dd5d746506a1c0628c52c44626a2",
-                "sha256:6709e4f16faa83658bbea31dae5d27d8663a29a7e9351fa6f2c2efe4010573be"
+                "sha256:9cf876e5cea9aa2ba541207dabc21f13ce2a23d475971e65f61f7453f298e6c6",
+                "sha256:dfdb597b6292b307d7f11c5a4c3447d59e08dc70d9adf90181cf2064409fc1aa"
             ],
             "index": "pypi",
-            "version": "==1.0.807"
+            "version": "==1.0.808"
         },
         "colorama": {
             "hashes": [
