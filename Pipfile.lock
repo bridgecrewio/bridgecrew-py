@@ -34,19 +34,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:7d1f30022f7e28e0907ea521dc84b04506f83cc6afc7c63225153bf3a35cf1b6",
-                "sha256:bf4a321da7dbe0c5a20380ff9f6a8a4e2e135e72a40348890122a197368b4421"
+                "sha256:273e96ae2b95a6036a4c3547e76a270b17ab761cc76053823c9e361d268213ef",
+                "sha256:399ccbd31b7aa09d53c4e449fe575803b033fcc23ed3a1d7ae2fe7a04727a562"
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
-            "version": "==1.17.24"
+            "version": "==1.17.25"
         },
         "botocore": {
             "hashes": [
-                "sha256:1aff3499bb6576e5836d5a8ed3e984c99bf04fb462d9f8fffa454131c1bc40cd",
-                "sha256:9398bcd9491442aa559a7c111b96004bb06af612e53baa7165b0a646bb43534d"
+                "sha256:b80b4efe5fafb29f24a3657d1f77aa170525c876b5fd9384d5e5859d0405206e",
+                "sha256:f1c04a5e96944b628ae98a2975829125c0e9b99f9be7b118d42fb82cef3c420a"
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
-            "version": "==1.20.24"
+            "version": "==1.20.25"
         },
         "certifi": {
             "hashes": [
@@ -65,11 +65,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1068938e12f5940bdb1df389648a8f9fe19b92a539925920eedd9613e7749843",
-                "sha256:44f67918260747cf61556d57ed976ec557334f87557a4d81c0bb7dad47011b7b"
+                "sha256:b168bba638ad8a701b7609af36679cb16e899e75ee4ac6eae9bfb54ae39b4675",
+                "sha256:fadfd522f0b8a72b8e134c664eb08213d1413d528bd43ac7be4cc170e7af24ca"
             ],
             "index": "pypi",
-            "version": "==1.0.837"
+            "version": "==1.0.838"
         },
         "colorama": {
             "hashes": [
@@ -339,19 +339,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:7d1f30022f7e28e0907ea521dc84b04506f83cc6afc7c63225153bf3a35cf1b6",
-                "sha256:bf4a321da7dbe0c5a20380ff9f6a8a4e2e135e72a40348890122a197368b4421"
+                "sha256:273e96ae2b95a6036a4c3547e76a270b17ab761cc76053823c9e361d268213ef",
+                "sha256:399ccbd31b7aa09d53c4e449fe575803b033fcc23ed3a1d7ae2fe7a04727a562"
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
-            "version": "==1.17.24"
+            "version": "==1.17.25"
         },
         "botocore": {
             "hashes": [
-                "sha256:1aff3499bb6576e5836d5a8ed3e984c99bf04fb462d9f8fffa454131c1bc40cd",
-                "sha256:9398bcd9491442aa559a7c111b96004bb06af612e53baa7165b0a646bb43534d"
+                "sha256:b80b4efe5fafb29f24a3657d1f77aa170525c876b5fd9384d5e5859d0405206e",
+                "sha256:f1c04a5e96944b628ae98a2975829125c0e9b99f9be7b118d42fb82cef3c420a"
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
-            "version": "==1.20.24"
+            "version": "==1.20.25"
         },
         "certifi": {
             "hashes": [
@@ -370,11 +370,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1068938e12f5940bdb1df389648a8f9fe19b92a539925920eedd9613e7749843",
-                "sha256:44f67918260747cf61556d57ed976ec557334f87557a4d81c0bb7dad47011b7b"
+                "sha256:b168bba638ad8a701b7609af36679cb16e899e75ee4ac6eae9bfb54ae39b4675",
+                "sha256:fadfd522f0b8a72b8e134c664eb08213d1413d528bd43ac7be4cc170e7af24ca"
             ],
             "index": "pypi",
-            "version": "==1.0.837"
+            "version": "==1.0.838"
         },
         "colorama": {
             "hashes": [
