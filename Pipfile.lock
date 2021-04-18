@@ -80,11 +80,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:bfedfcc148baa5a28c63137b8176125138e166a368b1c447253dd2fc8e1c942b",
-                "sha256:cdfd130e6016aa642376e9b72572f01fbf00bf37901656ee353db93af0ffd7a9"
+                "sha256:5b0a589ef9de30b23eb8f23b1184c73c8399b818062dfeead2662f7ce6e70137",
+                "sha256:e06a2a3ed641aeedec7e2396a1bf13a3d2bb396bed5e9160da8fb2093abefbd7"
             ],
             "index": "pypi",
-            "version": "==2.0.54"
+            "version": "==2.0.55"
         },
         "click": {
             "hashes": [
@@ -179,11 +179,11 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:2ec0faae539743ae6aaa84b49a169670a465f7f5d64e6add98388cc29fd1f2f6",
-                "sha256:c9356b657de65c53744046fa8f7358afe0714a1af7d570c00c3835c2d724a7c1"
+                "sha256:19192b88d959336bfa6bdaaaef99aeafec179eca19c47c804e555703ee5f07ef",
+                "sha256:2e881981c9748d7282b374b68e759c87745c25427b67ecf0cc67fb6637a1bff9"
             ],
             "markers": "python_version < '3.8'",
-            "version": "==3.10.1"
+            "version": "==4.0.0"
         },
         "jinja2": {
             "hashes": [
@@ -551,11 +551,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:bfedfcc148baa5a28c63137b8176125138e166a368b1c447253dd2fc8e1c942b",
-                "sha256:cdfd130e6016aa642376e9b72572f01fbf00bf37901656ee353db93af0ffd7a9"
+                "sha256:5b0a589ef9de30b23eb8f23b1184c73c8399b818062dfeead2662f7ce6e70137",
+                "sha256:e06a2a3ed641aeedec7e2396a1bf13a3d2bb396bed5e9160da8fb2093abefbd7"
             ],
             "index": "pypi",
-            "version": "==2.0.54"
+            "version": "==2.0.55"
         },
         "click": {
             "hashes": [
@@ -650,11 +650,11 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:2ec0faae539743ae6aaa84b49a169670a465f7f5d64e6add98388cc29fd1f2f6",
-                "sha256:c9356b657de65c53744046fa8f7358afe0714a1af7d570c00c3835c2d724a7c1"
+                "sha256:19192b88d959336bfa6bdaaaef99aeafec179eca19c47c804e555703ee5f07ef",
+                "sha256:2e881981c9748d7282b374b68e759c87745c25427b67ecf0cc67fb6637a1bff9"
             ],
             "markers": "python_version < '3.8'",
-            "version": "==3.10.1"
+            "version": "==4.0.0"
         },
         "jinja2": {
             "hashes": [
