@@ -80,11 +80,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:0d5d15f71291067f93adc1cc1796ce457b7e6a49e90e2def27becf82585e405e",
-                "sha256:d5d07e4c5039c2e2cad619cde85a06b5c36aab523b416d15d9cdede12ecc2c55"
+                "sha256:306487edbcf1dee469bab8f844461a98168b0f3264ff0f9c8d8045426c51a24b",
+                "sha256:fdc3989c7fc0d4f86152aa8b228734c093ec40efdd6a33ff5444be02c2477265"
             ],
             "index": "pypi",
-            "version": "==2.0.63"
+            "version": "==2.0.64"
         },
         "click": {
             "hashes": [
@@ -163,11 +163,11 @@
         },
         "gitpython": {
             "hashes": [
-                "sha256:3283ae2fba31c913d857e12e5ba5f9a7772bbc064ae2bb09efafa71b0dd4939b",
-                "sha256:be27633e7509e58391f10207cd32b2a6cf5b908f92d9cd30da2e514e1137af61"
+                "sha256:05af150f47a5cca3f4b0af289b73aef8cf3c4fe2385015b06220cbcdee48bb6e",
+                "sha256:a77824e516d3298b04fb36ec7845e92747df8fcfee9cacc32dd6239f9652f867"
             ],
-            "markers": "python_version >= '3.4'",
-            "version": "==3.1.14"
+            "markers": "python_version >= '3.5'",
+            "version": "==3.1.15"
         },
         "idna": {
             "hashes": [
@@ -551,11 +551,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:0d5d15f71291067f93adc1cc1796ce457b7e6a49e90e2def27becf82585e405e",
-                "sha256:d5d07e4c5039c2e2cad619cde85a06b5c36aab523b416d15d9cdede12ecc2c55"
+                "sha256:306487edbcf1dee469bab8f844461a98168b0f3264ff0f9c8d8045426c51a24b",
+                "sha256:fdc3989c7fc0d4f86152aa8b228734c093ec40efdd6a33ff5444be02c2477265"
             ],
             "index": "pypi",
-            "version": "==2.0.63"
+            "version": "==2.0.64"
         },
         "click": {
             "hashes": [
@@ -634,11 +634,11 @@
         },
         "gitpython": {
             "hashes": [
-                "sha256:3283ae2fba31c913d857e12e5ba5f9a7772bbc064ae2bb09efafa71b0dd4939b",
-                "sha256:be27633e7509e58391f10207cd32b2a6cf5b908f92d9cd30da2e514e1137af61"
+                "sha256:05af150f47a5cca3f4b0af289b73aef8cf3c4fe2385015b06220cbcdee48bb6e",
+                "sha256:a77824e516d3298b04fb36ec7845e92747df8fcfee9cacc32dd6239f9652f867"
             ],
-            "markers": "python_version >= '3.4'",
-            "version": "==3.1.14"
+            "markers": "python_version >= '3.5'",
+            "version": "==3.1.15"
         },
         "idna": {
             "hashes": [
