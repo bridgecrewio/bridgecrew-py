@@ -29,7 +29,7 @@
                 "sha256:46f525676842d5c232752f9655f138665a1fa317b04e26efee3f82101dae204b",
                 "sha256:768c1a3c00db3cb9be7bd1e08c20813cf1e86d4a3cc47a76f7f97172d7b7d432"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==0.3.18"
         },
         "beautifulsoup4": {
@@ -80,18 +80,18 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1a0df01d1b223f0b624af2c596693e910759336aca3f9061a648fa36ea5b2580",
-                "sha256:a4caa8b41e71c2cd576e36e39df15fd93574dac111673dcee22c1b73be2f1e08"
+                "sha256:56fcdd52ac6b86ddabe4e7d76a20a15f477e94b8b44f348ffe65aaa4f3054594",
+                "sha256:5acee30688c80dfaa497fd6c5cf8568b0004589c4a3e043c919970210a33ead7"
             ],
             "index": "pypi",
-            "version": "==2.0.142"
+            "version": "==2.0.143"
         },
         "click": {
             "hashes": [
                 "sha256:7d8c289ee437bcb0316820ccee14aefcb056e58d31830ecab8e47eda6540e136",
                 "sha256:e90e62ced43dc8105fb9a26d62f0d9340b5c8db053a814e25d95c19873ae87db"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==8.0.0"
         },
         "click-option-group": {
@@ -99,7 +99,7 @@
                 "sha256:9653a2297357335d7325a1827e71ac1245d91c97d959346a7decabd4a52d5354",
                 "sha256:a6e924f3c46b657feb5b72679f7e930f8e5b224b766ab35c91ae4019b4e0615e"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4'",
+            "markers": "python_version < '4' and python_full_version >= '3.6.0'",
             "version": "==0.5.3"
         },
         "cloudsplaining": {
@@ -107,7 +107,7 @@
                 "sha256:6e80b3280aae08ec8d5ff3adb301daad3a59299286360db82ace9ed80a6cc3e2",
                 "sha256:a30ff0f8ffdcae5465c43adce0657d888e60e0160f3d05e085d4e8682fd87a8c"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==0.4.2"
         },
         "colorama": {
@@ -145,7 +145,7 @@
                 "sha256:3e8bc47534e0ca9331d72c32f2881bb13b93ded0bcdeab3c833fb7cf61c0a9a5",
                 "sha256:fc961d622160e8021c10d1bcabc388c57d55fb1f917175afbe24af442e6879bd"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==5.0.0"
         },
         "dockerfile-parse": {
@@ -198,7 +198,7 @@
                 "sha256:2f2de5285cf37f33d33ecd4a9080b75c87cd0c1994d5a9c6df17131ea1f049c6",
                 "sha256:ea8d7dd814ce9df6de6a761ec7f1cac98afe305b8cdc4aaae4e114b8d8ce24c5"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==3.0.0"
         },
         "jmespath": {
@@ -242,7 +242,7 @@
                 "sha256:31b5b491868dcc87d6c24b7e3d19a0d730d59d3e46f4eea6430a321bed387a49",
                 "sha256:96c3ba1261de2f7547b46a00ea8463832c921d3f9d6aba3f255a6f71386db20c"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==3.3.4"
         },
         "markupsafe": {
@@ -282,7 +282,7 @@
                 "sha256:f58b5ba13a5689ca8317b98439fccfbcc673acaaf8241c1869ceea40f5d585bf",
                 "sha256:fef86115fdad7ae774720d7103aa776144cf9b66673b4afa9bcaa7af990ed07b"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==2.0.0"
         },
         "networkx": {
@@ -290,7 +290,7 @@
                 "sha256:0635858ed7e989f4c574c2328380b452df892ae85084144c73d8cd819f0c4e06",
                 "sha256:109cd585cac41297f71103c3c42ac6ef7379f29788eb54cb751be5a663bb235a"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==2.5.1"
         },
         "packaging": {
@@ -314,7 +314,7 @@
                 "sha256:15c1aa5e4d887d07df495518445126182d4a551e177c192a46169593ce971fbc",
                 "sha256:2c3e4405a72f8284f7a3c987fbd666b3ae63fd095101e004e9ee6a1fb1ab76ff"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==0.11.10"
         },
         "pyparsing": {
@@ -480,7 +480,7 @@
                 "sha256:5051b38a2f4c27fbd7ca077ebb23ec6965a626ded5a95637f36be1b35b6c4f81",
                 "sha256:57f876f1af4731cacb806cf54d02f5fbf75dee796053b9a5b94fd7c1d9621db9"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==1.0.0"
         },
         "zipp": {
@@ -488,7 +488,7 @@
                 "sha256:3607921face881ba3e026887d8150cca609d517579abe052ac81fc5aeffdbd76",
                 "sha256:51cb66cc54621609dd593d1787f286ee42a5c0adbb4b29abea5a63edc3e03098"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==3.4.1"
         }
     },
@@ -498,7 +498,7 @@
                 "sha256:46f525676842d5c232752f9655f138665a1fa317b04e26efee3f82101dae204b",
                 "sha256:768c1a3c00db3cb9be7bd1e08c20813cf1e86d4a3cc47a76f7f97172d7b7d432"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==0.3.18"
         },
         "beautifulsoup4": {
@@ -549,18 +549,18 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1a0df01d1b223f0b624af2c596693e910759336aca3f9061a648fa36ea5b2580",
-                "sha256:a4caa8b41e71c2cd576e36e39df15fd93574dac111673dcee22c1b73be2f1e08"
+                "sha256:56fcdd52ac6b86ddabe4e7d76a20a15f477e94b8b44f348ffe65aaa4f3054594",
+                "sha256:5acee30688c80dfaa497fd6c5cf8568b0004589c4a3e043c919970210a33ead7"
             ],
             "index": "pypi",
-            "version": "==2.0.142"
+            "version": "==2.0.143"
         },
         "click": {
             "hashes": [
                 "sha256:7d8c289ee437bcb0316820ccee14aefcb056e58d31830ecab8e47eda6540e136",
                 "sha256:e90e62ced43dc8105fb9a26d62f0d9340b5c8db053a814e25d95c19873ae87db"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==8.0.0"
         },
         "click-option-group": {
@@ -568,7 +568,7 @@
                 "sha256:9653a2297357335d7325a1827e71ac1245d91c97d959346a7decabd4a52d5354",
                 "sha256:a6e924f3c46b657feb5b72679f7e930f8e5b224b766ab35c91ae4019b4e0615e"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4'",
+            "markers": "python_version < '4' and python_full_version >= '3.6.0'",
             "version": "==0.5.3"
         },
         "cloudsplaining": {
@@ -576,7 +576,7 @@
                 "sha256:6e80b3280aae08ec8d5ff3adb301daad3a59299286360db82ace9ed80a6cc3e2",
                 "sha256:a30ff0f8ffdcae5465c43adce0657d888e60e0160f3d05e085d4e8682fd87a8c"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==0.4.2"
         },
         "colorama": {
@@ -614,7 +614,7 @@
                 "sha256:3e8bc47534e0ca9331d72c32f2881bb13b93ded0bcdeab3c833fb7cf61c0a9a5",
                 "sha256:fc961d622160e8021c10d1bcabc388c57d55fb1f917175afbe24af442e6879bd"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==5.0.0"
         },
         "dockerfile-parse": {
@@ -667,7 +667,7 @@
                 "sha256:2f2de5285cf37f33d33ecd4a9080b75c87cd0c1994d5a9c6df17131ea1f049c6",
                 "sha256:ea8d7dd814ce9df6de6a761ec7f1cac98afe305b8cdc4aaae4e114b8d8ce24c5"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==3.0.0"
         },
         "jmespath": {
@@ -695,7 +695,7 @@
                 "sha256:31b5b491868dcc87d6c24b7e3d19a0d730d59d3e46f4eea6430a321bed387a49",
                 "sha256:96c3ba1261de2f7547b46a00ea8463832c921d3f9d6aba3f255a6f71386db20c"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==3.3.4"
         },
         "markupsafe": {
@@ -735,7 +735,7 @@
                 "sha256:f58b5ba13a5689ca8317b98439fccfbcc673acaaf8241c1869ceea40f5d585bf",
                 "sha256:fef86115fdad7ae774720d7103aa776144cf9b66673b4afa9bcaa7af990ed07b"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==2.0.0"
         },
         "networkx": {
@@ -743,7 +743,7 @@
                 "sha256:0635858ed7e989f4c574c2328380b452df892ae85084144c73d8cd819f0c4e06",
                 "sha256:109cd585cac41297f71103c3c42ac6ef7379f29788eb54cb751be5a663bb235a"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==2.5.1"
         },
         "packaging": {
@@ -759,7 +759,7 @@
                 "sha256:15c1aa5e4d887d07df495518445126182d4a551e177c192a46169593ce971fbc",
                 "sha256:2c3e4405a72f8284f7a3c987fbd666b3ae63fd095101e004e9ee6a1fb1ab76ff"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==0.11.10"
         },
         "pyparsing": {
@@ -917,7 +917,7 @@
                 "sha256:5051b38a2f4c27fbd7ca077ebb23ec6965a626ded5a95637f36be1b35b6c4f81",
                 "sha256:57f876f1af4731cacb806cf54d02f5fbf75dee796053b9a5b94fd7c1d9621db9"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==1.0.0"
         },
         "zipp": {
@@ -925,7 +925,7 @@
                 "sha256:3607921face881ba3e026887d8150cca609d517579abe052ac81fc5aeffdbd76",
                 "sha256:51cb66cc54621609dd593d1787f286ee42a5c0adbb4b29abea5a63edc3e03098"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==3.4.1"
         }
     }
