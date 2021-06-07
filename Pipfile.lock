@@ -80,11 +80,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:78e842475f3893a141777141ce131d921c061e40ab914b5624d5fc3b6667a6f8",
-                "sha256:8cf3195608f9924934853a13327b13867f18455998aa500d48b3dc96d05072a0"
+                "sha256:1370c926b2eaef769db44f798a9966aa919a0875d28884f9cc6f1f1a5b107b72",
+                "sha256:1d84d47b891905245b0f506faa0fd504e7b3e43cb8856c8b11f5f98ebcf159c2"
             ],
             "index": "pypi",
-            "version": "==2.0.181"
+            "version": "==2.0.182"
         },
         "click": {
             "hashes": [
@@ -117,6 +117,14 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
             "version": "==0.4.4"
+        },
+        "configargparse": {
+            "hashes": [
+                "sha256:6df537158f28c5ef2e8a8146781833abbc6cb7fca81b1b55d18808ce3439235e",
+                "sha256:eaff53ff3627c3e412392bd4a703d4c39e3425a953557f4ef69a20f03358c26f"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
+            "version": "==1.4.1"
         },
         "contextlib2": {
             "hashes": [
@@ -549,11 +557,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:78e842475f3893a141777141ce131d921c061e40ab914b5624d5fc3b6667a6f8",
-                "sha256:8cf3195608f9924934853a13327b13867f18455998aa500d48b3dc96d05072a0"
+                "sha256:1370c926b2eaef769db44f798a9966aa919a0875d28884f9cc6f1f1a5b107b72",
+                "sha256:1d84d47b891905245b0f506faa0fd504e7b3e43cb8856c8b11f5f98ebcf159c2"
             ],
             "index": "pypi",
-            "version": "==2.0.181"
+            "version": "==2.0.182"
         },
         "click": {
             "hashes": [
@@ -586,6 +594,14 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
             "version": "==0.4.4"
+        },
+        "configargparse": {
+            "hashes": [
+                "sha256:6df537158f28c5ef2e8a8146781833abbc6cb7fca81b1b55d18808ce3439235e",
+                "sha256:eaff53ff3627c3e412392bd4a703d4c39e3425a953557f4ef69a20f03358c26f"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
+            "version": "==1.4.1"
         },
         "contextlib2": {
             "hashes": [
