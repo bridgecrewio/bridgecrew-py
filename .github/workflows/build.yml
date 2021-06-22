@@ -3,7 +3,7 @@ on: repository_dispatch
 
 jobs:
   bump-version:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, public, linux, x64]
     steps:
       - uses: actions/checkout@v2
         with:
@@ -103,7 +103,7 @@ jobs:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'  
   update-bridgecrew-py-projects:
     needs: publish-bridgecrew-dockerhub
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, public, linux, x64]
     steps:
       - uses: actions/checkout@master
       - name: update bridgecrew release
