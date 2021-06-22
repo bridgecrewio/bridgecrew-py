@@ -61,7 +61,7 @@ jobs:
         run: |
           sleep 2m
   publish-bridgecrew-dockerhub:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, public, linux, x64]
     needs: publish-package
     steps:
       - uses: actions/checkout@master
@@ -82,7 +82,7 @@ jobs:
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
   publish-bridgecrew-k8s-dockerhub:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, public, linux, x64]
     needs: publish-package
     steps:
       - uses: actions/checkout@master
