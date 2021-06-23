@@ -10,44 +10,19 @@ class CustomRunnerRegistry(RunnerRegistry):
         super().__init__(banner, runner_filter, *runners)
         OUTPUT_CHOICES.append("sarif")
 
-    def print_reports(self, scan_reports, args, url = None):
-        if args.output not in OUTPUT_CHOICES:
-            print(f"{self.banner}\n")
+    def print_reports(self, scan_reports, args, url=None, created_baseline_path=None, baseline=None):
         exit_codes = []
-        report_jsons = []
-        merged_reports = self.merge_reports(scan_reports)
         if args.output == 'sarif':
+            merged_reports = self.merge_reports(scan_reports)
             report = self.report2sarif_report(merged_reports, args)
             report.print_sarif()
             exit_codes.append(report.get_exit_code(args.soft_fail))
             if url:
                 print("More details: {}".format(url))
         else:
-            for report in scan_reports:
-                if not report.is_empty():
-                    if args.output == "json":
-                        report_jsons.append(report.get_dict())
-                    elif args.output == "junitxml":
-                        report.print_junit_xml()
-                    elif args.output == 'github_failed_only':
-                        report.print_failed_github_md()
-                    elif args.output == 'sarif':
-                        report = self.report2sarif_report(report, args)
-                        report.print_sarif()
-                        if url:
-                            print("More details: {}".format(url))
-                    else:
-                        report.print_console(is_quiet=args.quiet)
-                        if url:
-                            print("More details: {}".format(url))
-                exit_codes.append(report.get_exit_code(args.soft_fail))
-        if args.output == "json":
-            if len(report_jsons) == 1:
-                print(json.dumps(report_jsons[0], indent=4))
-            else:
-                print(json.dumps(report_jsons, indent=4))
+            exit_codes = [super().print_reports(scan_reports, args, url, created_baseline_path, baseline)]
         exit_code = 1 if 1 in exit_codes else 0
-        exit(exit_code)
+        return exit_code
 
     @staticmethod
     def merge_reports(reports):
