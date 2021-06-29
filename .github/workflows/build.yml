@@ -36,7 +36,9 @@ jobs:
     needs: bump-version
     runs-on: [self-hosted, public, linux, x64]
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Set up Python 3.7
         uses: actions/setup-python@v2
         with:
