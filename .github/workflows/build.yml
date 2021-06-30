@@ -15,6 +15,9 @@ jobs:
         with:
           python-version: 3.7
       - uses: dschep/install-pipenv-action@v1
+      - name: Install dependencies
+        run: |
+          pipenv install --dev
       - name: Fetch release version
         run: |
           git config --global user.name 'GitHub Action'
@@ -32,21 +35,6 @@ jobs:
           git push origin
           git tag -f $new_tag
           git push origin $new_tag
-  publish-package:
-    needs: bump-version
-    runs-on: [self-hosted, public, linux, x64]
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Set up Python 3.7
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.7
-      - uses: dschep/install-pipenv-action@v1
-      - name: Install dependencies
-        run: |
-          pipenv install --dev
       - name: create python package
         run: |
           git config --local user.email "action@github.com"
@@ -62,7 +50,7 @@ jobs:
           sleep 2m
   publish-bridgecrew-dockerhub:
     runs-on: [self-hosted, public, linux, x64]
-    needs: publish-package
+    needs: bump-version
     steps:
       - uses: actions/checkout@master
       - name: Get release version
