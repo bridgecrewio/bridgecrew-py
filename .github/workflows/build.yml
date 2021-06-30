@@ -71,7 +71,7 @@ jobs:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
   publish-bridgecrew-k8s-dockerhub:
     runs-on: [self-hosted, public, linux, x64]
-    needs: publish-package
+    needs: bump-version
     steps:
       - uses: actions/checkout@master
       - name: update bridgecrew-k8s version
