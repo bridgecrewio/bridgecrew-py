@@ -11,7 +11,9 @@ from checkov.main import DEFAULT_RUNNERS
 
 def run():
     main.outer_registry = CustomRunnerRegistry(banner,None, *DEFAULT_RUNNERS)
-    main.run(banner)
+    exit_code = main.run(banner)
+    if exit_code:
+        exit(exit_code)
 
 
 if __name__ == '__main__':
