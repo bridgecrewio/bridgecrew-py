@@ -6,7 +6,7 @@ on:
 
 jobs:
   pipenv-update:
-    runs-on: [self-hosted, public, linux, x64]
+    runs-on: [self-hosted, private, linux, x64]
     steps:
       - uses: actions/checkout@v2
         with:
