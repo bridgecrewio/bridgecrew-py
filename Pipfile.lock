@@ -80,11 +80,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1127e2f966ad33a5f0e81c136c3c92ce1a3bc1cdddcd9506e4caea840c2842c7",
-                "sha256:8c73e725c0034793743d8c13c6761eda8eb1f2148fc4574dbd44937fb532ad65"
+                "sha256:ceb9df34dbb9ce13343b0931a2f331ba201674feca188c487e9496d781f95210",
+                "sha256:e69eec5baf84fcd92ee9ec2ccf7c323db49305a0d2ee1f4e1879c61c2966c684"
             ],
             "index": "pypi",
-            "version": "==2.0.336"
+            "version": "==2.0.337"
         },
         "click": {
             "hashes": [
@@ -492,11 +492,11 @@
         },
         "websocket-client": {
             "hashes": [
-                "sha256:b68e4959d704768fa20e35c9d508c8dc2bbc041fd8d267c0d7345cffe2824568",
-                "sha256:e5c333bfa9fa739538b652b6f8c8fc2559f1d364243c8a689d7c0e1d41c2e611"
+                "sha256:4cf754af7e3b3ba76589d49f9e09fd9a6c0aae9b799a89124d656009c01a261d",
+                "sha256:8d07f155f8ed14ae3ced97bd7582b08f280bb1bfd27945f023ba2aceff05ab52"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.1.0"
+            "version": "==1.1.1"
         },
         "zipp": {
             "hashes": [
@@ -564,11 +564,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1127e2f966ad33a5f0e81c136c3c92ce1a3bc1cdddcd9506e4caea840c2842c7",
-                "sha256:8c73e725c0034793743d8c13c6761eda8eb1f2148fc4574dbd44937fb532ad65"
+                "sha256:ceb9df34dbb9ce13343b0931a2f331ba201674feca188c487e9496d781f95210",
+                "sha256:e69eec5baf84fcd92ee9ec2ccf7c323db49305a0d2ee1f4e1879c61c2966c684"
             ],
             "index": "pypi",
-            "version": "==2.0.336"
+            "version": "==2.0.337"
         },
         "click": {
             "hashes": [
@@ -944,11 +944,11 @@
         },
         "websocket-client": {
             "hashes": [
-                "sha256:b68e4959d704768fa20e35c9d508c8dc2bbc041fd8d267c0d7345cffe2824568",
-                "sha256:e5c333bfa9fa739538b652b6f8c8fc2559f1d364243c8a689d7c0e1d41c2e611"
+                "sha256:4cf754af7e3b3ba76589d49f9e09fd9a6c0aae9b799a89124d656009c01a261d",
+                "sha256:8d07f155f8ed14ae3ced97bd7582b08f280bb1bfd27945f023ba2aceff05ab52"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.1.0"
+            "version": "==1.1.1"
         },
         "zipp": {
             "hashes": [
