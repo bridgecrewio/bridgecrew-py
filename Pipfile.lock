@@ -96,11 +96,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:2c82f24ca4229e0ac4cb63d9866328575e2561fbd7def16d19de2af7995150e3",
-                "sha256:842b3b2ddaf07584e9518740b7a51c295ed381e9135c3fe51d2af7eec2f625db"
+                "sha256:0d7e56b198568f92f8735e606f1f20fb83743fe887b482f88341ec95d28336d7",
+                "sha256:1f0dcea3058760426e5bc911e0920bf3d2d8dd94aecd15102856202585e8731e"
             ],
             "index": "pypi",
-            "version": "==2.0.358"
+            "version": "==2.0.359"
         },
         "click": {
             "hashes": [
@@ -120,11 +120,11 @@
         },
         "cloudsplaining": {
             "hashes": [
-                "sha256:95fc4634865df002a45c65ab3fa8ac5c324e7c5504468e3255d50d6e9eab1a0f",
-                "sha256:c5ad2248e4c40aa5af9cee9f67772545e803d81f14cb43e86d3d161237de4503"
+                "sha256:45c3e825ca1770902d58b79774729a7d11581e7d041272d3ed45d88fb1b69a42",
+                "sha256:e6f0f8a86e220af779cbb3fd3060f72952f9e8d1ed6f3b7a870774ddf421e9cf"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==0.4.4"
+            "version": "==0.4.5"
         },
         "colorama": {
             "hashes": [
@@ -674,11 +674,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:2c82f24ca4229e0ac4cb63d9866328575e2561fbd7def16d19de2af7995150e3",
-                "sha256:842b3b2ddaf07584e9518740b7a51c295ed381e9135c3fe51d2af7eec2f625db"
+                "sha256:0d7e56b198568f92f8735e606f1f20fb83743fe887b482f88341ec95d28336d7",
+                "sha256:1f0dcea3058760426e5bc911e0920bf3d2d8dd94aecd15102856202585e8731e"
             ],
             "index": "pypi",
-            "version": "==2.0.358"
+            "version": "==2.0.359"
         },
         "click": {
             "hashes": [
@@ -698,11 +698,11 @@
         },
         "cloudsplaining": {
             "hashes": [
-                "sha256:95fc4634865df002a45c65ab3fa8ac5c324e7c5504468e3255d50d6e9eab1a0f",
-                "sha256:c5ad2248e4c40aa5af9cee9f67772545e803d81f14cb43e86d3d161237de4503"
+                "sha256:45c3e825ca1770902d58b79774729a7d11581e7d041272d3ed45d88fb1b69a42",
+                "sha256:e6f0f8a86e220af779cbb3fd3060f72952f9e8d1ed6f3b7a870774ddf421e9cf"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==0.4.4"
+            "version": "==0.4.5"
         },
         "colorama": {
             "hashes": [
