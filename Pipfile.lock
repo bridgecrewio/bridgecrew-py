@@ -80,11 +80,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:aa583c646d816f5a970a22c8ff538377197208c6abe5aeac94a65b26b32f059b",
-                "sha256:c3e1ef7e0dc67044686844fe528778ff978b565102cd85126ccb078728636fa2"
+                "sha256:250d5d9f9e4ec2ab9d420308f32bd662559ad1d3b48589e52d60ff735a6ad7d8",
+                "sha256:70401690cb4686ecf3813566ada28e5a5c8989541b217b6d32d21e853ffcaf9b"
             ],
             "index": "pypi",
-            "version": "==2.0.377"
+            "version": "==2.0.379"
         },
         "click": {
             "hashes": [
@@ -195,11 +195,11 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:7108c0c93872d7e9312c69d2f8e625fac7da59dc9a32475336bb99bc83815497",
-                "sha256:c23af2799037d2928713861886ec5a95aaa4421ec62e63b8eac63eba0779bf73"
+                "sha256:b618b6d2d5ffa2f16add5697cf57a46c76a56229b0ed1c438322e4e95645bd15",
+                "sha256:f284b3e11256ad1e5d03ab86bb2ccd6f5339688ff17a4d797a0fe7df326f23b1"
             ],
             "markers": "python_version < '3.8'",
-            "version": "==4.8.0"
+            "version": "==4.8.1"
         },
         "jinja2": {
             "hashes": [
@@ -488,12 +488,12 @@
         },
         "typing-extensions": {
             "hashes": [
-                "sha256:0ac0f89795dd19de6b97debb0c6af1c70987fd80a2d62d1958f7e56fcc31b497",
-                "sha256:50b6f157849174217d0656f99dc82fe932884fb250826c18350e159ec6cdf342",
-                "sha256:779383f6086d90c99ae41cf0ff39aac8a7937a9283ce0a414e5dd782f4c94a84"
+                "sha256:045dd532231acfa03628df5e0c66dba64e2cc8fc8b844538d4ad6d5dd6cb82dc",
+                "sha256:83af6730a045fda60f46510f7f1f094776d90321caa4d97d20ef38871bef4bd3",
+                "sha256:8bbffbd37fbeb9747a0241fdfde5ae99d4531ad1d1a41ccaea62100e15a5814c"
             ],
             "markers": "python_version < '3.8'",
-            "version": "==3.10.0.0"
+            "version": "==3.10.0.1"
         },
         "update-checker": {
             "hashes": [
@@ -584,11 +584,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:aa583c646d816f5a970a22c8ff538377197208c6abe5aeac94a65b26b32f059b",
-                "sha256:c3e1ef7e0dc67044686844fe528778ff978b565102cd85126ccb078728636fa2"
+                "sha256:250d5d9f9e4ec2ab9d420308f32bd662559ad1d3b48589e52d60ff735a6ad7d8",
+                "sha256:70401690cb4686ecf3813566ada28e5a5c8989541b217b6d32d21e853ffcaf9b"
             ],
             "index": "pypi",
-            "version": "==2.0.377"
+            "version": "==2.0.379"
         },
         "click": {
             "hashes": [
@@ -699,11 +699,11 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:7108c0c93872d7e9312c69d2f8e625fac7da59dc9a32475336bb99bc83815497",
-                "sha256:c23af2799037d2928713861886ec5a95aaa4421ec62e63b8eac63eba0779bf73"
+                "sha256:b618b6d2d5ffa2f16add5697cf57a46c76a56229b0ed1c438322e4e95645bd15",
+                "sha256:f284b3e11256ad1e5d03ab86bb2ccd6f5339688ff17a4d797a0fe7df326f23b1"
             ],
             "markers": "python_version < '3.8'",
-            "version": "==4.8.0"
+            "version": "==4.8.1"
         },
         "jinja2": {
             "hashes": [
@@ -960,12 +960,12 @@
         },
         "typing-extensions": {
             "hashes": [
-                "sha256:0ac0f89795dd19de6b97debb0c6af1c70987fd80a2d62d1958f7e56fcc31b497",
-                "sha256:50b6f157849174217d0656f99dc82fe932884fb250826c18350e159ec6cdf342",
-                "sha256:779383f6086d90c99ae41cf0ff39aac8a7937a9283ce0a414e5dd782f4c94a84"
+                "sha256:045dd532231acfa03628df5e0c66dba64e2cc8fc8b844538d4ad6d5dd6cb82dc",
+                "sha256:83af6730a045fda60f46510f7f1f094776d90321caa4d97d20ef38871bef4bd3",
+                "sha256:8bbffbd37fbeb9747a0241fdfde5ae99d4531ad1d1a41ccaea62100e15a5814c"
             ],
             "markers": "python_version < '3.8'",
-            "version": "==3.10.0.0"
+            "version": "==3.10.0.1"
         },
         "update-checker": {
             "hashes": [
