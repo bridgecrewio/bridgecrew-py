@@ -133,11 +133,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:38bafbf3267959687ce689fcffaab202c84b9c93b3ddf09ac84b8ae54b9e38a5",
-                "sha256:3a7a04f99b57b449c3d02399827fccdd4231fdc556b1af6420be88fd2202a5d1"
+                "sha256:5ad4893ed926a2322a4c505a917788c408f75f7bd1a6439b035abfd3a8173505",
+                "sha256:b71a13e3d49832d286275cac263d509f678c78ea6e4821b3a2d30bbf3c8dc016"
             ],
             "index": "pypi",
-            "version": "==2.0.392"
+            "version": "==2.0.393"
         },
         "click": {
             "hashes": [
@@ -219,10 +219,10 @@
         },
         "docker": {
             "hashes": [
-                "sha256:5aafaec0d2a1de0e32010b43b5eac9f6f851c9db99a46ad32b8e44eeeb55616d",
-                "sha256:b88eef725b33c0ed59c67506631bbb09b480b7ca5a739bbbb948b446443fe914"
+                "sha256:21ec4998e90dff7a7aaaa098ca8d839c7de412b89e6f6c30908372d58fecf663",
+                "sha256:9b17f0723d83c1f3418d2aa17bf90b24dbe97deda06208dd4262fa30a6ee87eb"
             ],
-            "version": "==5.0.1"
+            "version": "==5.0.2"
         },
         "dockerfile-parse": {
             "hashes": [
@@ -621,7 +621,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
@@ -714,11 +714,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:38bafbf3267959687ce689fcffaab202c84b9c93b3ddf09ac84b8ae54b9e38a5",
-                "sha256:3a7a04f99b57b449c3d02399827fccdd4231fdc556b1af6420be88fd2202a5d1"
+                "sha256:5ad4893ed926a2322a4c505a917788c408f75f7bd1a6439b035abfd3a8173505",
+                "sha256:b71a13e3d49832d286275cac263d509f678c78ea6e4821b3a2d30bbf3c8dc016"
             ],
             "index": "pypi",
-            "version": "==2.0.392"
+            "version": "==2.0.393"
         },
         "click": {
             "hashes": [
@@ -778,10 +778,10 @@
         },
         "docker": {
             "hashes": [
-                "sha256:5aafaec0d2a1de0e32010b43b5eac9f6f851c9db99a46ad32b8e44eeeb55616d",
-                "sha256:b88eef725b33c0ed59c67506631bbb09b480b7ca5a739bbbb948b446443fe914"
+                "sha256:21ec4998e90dff7a7aaaa098ca8d839c7de412b89e6f6c30908372d58fecf663",
+                "sha256:9b17f0723d83c1f3418d2aa17bf90b24dbe97deda06208dd4262fa30a6ee87eb"
             ],
-            "version": "==5.0.1"
+            "version": "==5.0.2"
         },
         "dockerfile-parse": {
             "hashes": [
@@ -1070,7 +1070,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
