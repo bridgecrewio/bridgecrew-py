@@ -133,11 +133,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:7e7603c73c62f26ae01cb3fd044c244ed83b7b8d6da9a6f8ef35475d6da225e7",
-                "sha256:dba7c6eb8698312291f9a725cbd749f3cc37771a02f00ae93f1f9fd05241f277"
+                "sha256:2d265701460092282e4e5571effb832b93508da5ebbd466ff4ea1672d95b64a5",
+                "sha256:7fd1685654b0de254b642e8e627dc42a61026ef7417fab5bdd0bb96b28dbbd9e"
             ],
             "index": "pypi",
-            "version": "==2.0.394"
+            "version": "==2.0.395"
         },
         "click": {
             "hashes": [
@@ -433,10 +433,10 @@
         },
         "policyuniverse": {
             "hashes": [
-                "sha256:1d5136329b4c4d33b114f8c781ebb2e306ff9dc6969d106ece2567e312b2dd15",
-                "sha256:a95adcecd8c5b6aafedbf0094217f9251589a5a350b3db54aa55b6cabc26a7ff"
+                "sha256:184f854fc716754ff07cd9f601923d1ce30a6826617e7c2b252abebe76746b6d",
+                "sha256:44145447d473c37ff2776667b5e1018a00c0a493c16a0a489399521b3786a8be"
             ],
-            "version": "==1.4.0.20210816"
+            "version": "==1.4.0.20210819"
         },
         "pycparser": {
             "hashes": [
@@ -621,7 +621,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.8'",
+            "markers": "python_version < '3.10'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
@@ -714,11 +714,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:7e7603c73c62f26ae01cb3fd044c244ed83b7b8d6da9a6f8ef35475d6da225e7",
-                "sha256:dba7c6eb8698312291f9a725cbd749f3cc37771a02f00ae93f1f9fd05241f277"
+                "sha256:2d265701460092282e4e5571effb832b93508da5ebbd466ff4ea1672d95b64a5",
+                "sha256:7fd1685654b0de254b642e8e627dc42a61026ef7417fab5bdd0bb96b28dbbd9e"
             ],
             "index": "pypi",
-            "version": "==2.0.394"
+            "version": "==2.0.395"
         },
         "click": {
             "hashes": [
@@ -941,10 +941,10 @@
         },
         "policyuniverse": {
             "hashes": [
-                "sha256:1d5136329b4c4d33b114f8c781ebb2e306ff9dc6969d106ece2567e312b2dd15",
-                "sha256:a95adcecd8c5b6aafedbf0094217f9251589a5a350b3db54aa55b6cabc26a7ff"
+                "sha256:184f854fc716754ff07cd9f601923d1ce30a6826617e7c2b252abebe76746b6d",
+                "sha256:44145447d473c37ff2776667b5e1018a00c0a493c16a0a489399521b3786a8be"
             ],
-            "version": "==1.4.0.20210816"
+            "version": "==1.4.0.20210819"
         },
         "pyparsing": {
             "hashes": [
@@ -1070,7 +1070,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.8'",
+            "markers": "python_version < '3.10'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
