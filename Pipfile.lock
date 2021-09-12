@@ -132,11 +132,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:0f7deb43bc58e717f1079ac89bb7651a465fd60f7475ecfd52d76214031ed23b",
-                "sha256:8a09a109184d1a8b177ae09f95648506bc0302b9c2f97484131b465f600557c3"
+                "sha256:20646594b27961d9a9bec7870291ce7ae4b18012128b3721b449476428458599",
+                "sha256:c05eb25d25e0b81aa3ac808578d64f4ed6d6435bf50d7079d4eaf6fad7e85abf"
             ],
             "index": "pypi",
-            "version": "==2.0.405"
+            "version": "==2.0.406"
         },
         "click": {
             "hashes": [
@@ -252,10 +252,10 @@
         },
         "gitpython": {
             "hashes": [
-                "sha256:b1e1c269deab1b08ce65403cf14e10d2ef1f6c89e33ea7c5e5bb0222ea593b8a",
-                "sha256:df0e072a200703a65387b0cfdf0466e3bab729c0458cf6b7349d0e9877636519"
+                "sha256:aaae7a3bfdf0a6db30dc1f3aeae47b71cd326d86b936fe2e158aa925fdf1471c",
+                "sha256:de2e2aff068097b23d6dca5daf588078fd8996a4218f6ffa704a662c2b54f9ac"
             ],
-            "version": "==3.1.20"
+            "version": "==3.1.23"
         },
         "idna": {
             "hashes": [
@@ -318,10 +318,10 @@
         },
         "keyring": {
             "hashes": [
-                "sha256:b32397fd7e7063f8dd74a26db910c9862fc2109285fa16e3b5208bcb42a3e579",
-                "sha256:b7e0156667f5dcc73c1f63a518005cd18a4eb23fe77321194fefcc03748b21a4"
+                "sha256:1e1970dcecde00c59ff6033d69cee3b283cd0d7cbad78b0dc4cdd15c8a28bcf8",
+                "sha256:66a08700421ed0aaf317c6bf6543f7345f9ab9e7bed6e0ee072f7f6fcddbab75"
             ],
-            "version": "==23.1.0"
+            "version": "==23.2.0"
         },
         "lark-parser": {
             "hashes": [
@@ -397,10 +397,10 @@
         },
         "networkx": {
             "hashes": [
-                "sha256:2306f1950ce772c5a59a57f5486d59bb9cab98497c45fc49cbc45ac0dec119bb",
-                "sha256:5fcb7004be69e8fbdf07dcb502efa5c77cadcaad6982164134eeb9721f826c2e"
+                "sha256:80b6b89c77d1dfb64a4c7854981b60aeea6360ac02c6d4e4913319e0a313abef",
+                "sha256:c0946ed31d71f1b732b5aaa6da5a0388a345019af232ce2f49c766e2d6795c51"
             ],
-            "version": "==2.6.2"
+            "version": "==2.6.3"
         },
         "packaging": {
             "hashes": [
@@ -619,7 +619,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
@@ -711,11 +711,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:0f7deb43bc58e717f1079ac89bb7651a465fd60f7475ecfd52d76214031ed23b",
-                "sha256:8a09a109184d1a8b177ae09f95648506bc0302b9c2f97484131b465f600557c3"
+                "sha256:20646594b27961d9a9bec7870291ce7ae4b18012128b3721b449476428458599",
+                "sha256:c05eb25d25e0b81aa3ac808578d64f4ed6d6435bf50d7079d4eaf6fad7e85abf"
             ],
             "index": "pypi",
-            "version": "==2.0.405"
+            "version": "==2.0.406"
         },
         "click": {
             "hashes": [
@@ -802,10 +802,10 @@
         },
         "gitpython": {
             "hashes": [
-                "sha256:b1e1c269deab1b08ce65403cf14e10d2ef1f6c89e33ea7c5e5bb0222ea593b8a",
-                "sha256:df0e072a200703a65387b0cfdf0466e3bab729c0458cf6b7349d0e9877636519"
+                "sha256:aaae7a3bfdf0a6db30dc1f3aeae47b71cd326d86b936fe2e158aa925fdf1471c",
+                "sha256:de2e2aff068097b23d6dca5daf588078fd8996a4218f6ffa704a662c2b54f9ac"
             ],
-            "version": "==3.1.20"
+            "version": "==3.1.23"
         },
         "idna": {
             "hashes": [
@@ -917,10 +917,10 @@
         },
         "networkx": {
             "hashes": [
-                "sha256:2306f1950ce772c5a59a57f5486d59bb9cab98497c45fc49cbc45ac0dec119bb",
-                "sha256:5fcb7004be69e8fbdf07dcb502efa5c77cadcaad6982164134eeb9721f826c2e"
+                "sha256:80b6b89c77d1dfb64a4c7854981b60aeea6360ac02c6d4e4913319e0a313abef",
+                "sha256:c0946ed31d71f1b732b5aaa6da5a0388a345019af232ce2f49c766e2d6795c51"
             ],
-            "version": "==2.6.2"
+            "version": "==2.6.3"
         },
         "packaging": {
             "hashes": [
@@ -1066,7 +1066,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
