@@ -139,11 +139,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:76f5b18ea9818251c268d10cd78ec7b7d33d1af6ff6aa13bbd38895b030f2e41",
-                "sha256:e6aaa4c23fe4d9f94de84b8db302abe8bd27ea2b827cff2d022b71a308ded4c0"
+                "sha256:66c651b4547502e8023025d4d0e5d4e0557e6ec01e32fce1e9e90e4cfff5ebc1",
+                "sha256:fac7708d0f5cc61667fc8f8aa8d9f2d4446984218b8d3482f8c1524c41626e9d"
             ],
             "index": "pypi",
-            "version": "==2.0.436"
+            "version": "==2.0.437"
         },
         "click": {
             "hashes": [
@@ -640,10 +640,10 @@
         },
         "urllib3": {
             "hashes": [
-                "sha256:39fb8672126159acb139a7718dd10806104dec1e2f0f6c88aab05d17df10c8d4",
-                "sha256:f57b4c16c62fa2760b7e3d97c35b255512fb6b59a259730f36ba32ce9f8e342f"
+                "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece",
+                "sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844"
             ],
-            "version": "==1.26.6"
+            "version": "==1.26.7"
         },
         "webencodings": {
             "hashes": [
@@ -727,11 +727,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:76f5b18ea9818251c268d10cd78ec7b7d33d1af6ff6aa13bbd38895b030f2e41",
-                "sha256:e6aaa4c23fe4d9f94de84b8db302abe8bd27ea2b827cff2d022b71a308ded4c0"
+                "sha256:66c651b4547502e8023025d4d0e5d4e0557e6ec01e32fce1e9e90e4cfff5ebc1",
+                "sha256:fac7708d0f5cc61667fc8f8aa8d9f2d4446984218b8d3482f8c1524c41626e9d"
             ],
             "index": "pypi",
-            "version": "==2.0.436"
+            "version": "==2.0.437"
         },
         "click": {
             "hashes": [
@@ -1094,10 +1094,10 @@
         },
         "urllib3": {
             "hashes": [
-                "sha256:39fb8672126159acb139a7718dd10806104dec1e2f0f6c88aab05d17df10c8d4",
-                "sha256:f57b4c16c62fa2760b7e3d97c35b255512fb6b59a259730f36ba32ce9f8e342f"
+                "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece",
+                "sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844"
             ],
-            "version": "==1.26.6"
+            "version": "==1.26.7"
         },
         "websocket-client": {
             "hashes": [
