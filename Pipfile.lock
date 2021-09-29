@@ -25,10 +25,10 @@
         },
         "bc-python-hcl2": {
             "hashes": [
-                "sha256:513fd5d1ce53cc44c4b687cefcb058a7b85ad959042e6b8aa612dde8ffa45faa",
-                "sha256:aa38d98f6d9979c9dd1ad2640167634eeed2965c8798db026825c0e77c479746"
+                "sha256:62c88c9133d148a478e75d5cb093aff7f25fd5bdd355433b3769489de8dd36b4",
+                "sha256:e1273781c75862fc7ca2f4cb87897efc23d1df5d2261f6bdd73d4a9f23df8a25"
             ],
-            "version": "==0.3.21"
+            "version": "==0.3.24"
         },
         "beautifulsoup4": {
             "hashes": [
@@ -139,11 +139,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:03a6c4a356aeafd54b813a7d13618310578fd935d7137dfc1475c5c0df9f2eb0",
-                "sha256:b30546c70e6dab2dcff0dde9b15c8c198fece9cd84d13eee18d33957c83d9e57"
+                "sha256:395e3a7cdca88c98323d357e39059fbad259e67fb4184ec427effdcb5cf7d560",
+                "sha256:46cbfded48f6995f5d6a622e20ca1dce8ae8d66b839ab85fbd1327715a79fc00"
             ],
             "index": "pypi",
-            "version": "==2.0.450"
+            "version": "==2.0.451"
         },
         "click": {
             "hashes": [
@@ -628,7 +628,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
@@ -670,10 +670,10 @@
     "develop": {
         "bc-python-hcl2": {
             "hashes": [
-                "sha256:513fd5d1ce53cc44c4b687cefcb058a7b85ad959042e6b8aa612dde8ffa45faa",
-                "sha256:aa38d98f6d9979c9dd1ad2640167634eeed2965c8798db026825c0e77c479746"
+                "sha256:62c88c9133d148a478e75d5cb093aff7f25fd5bdd355433b3769489de8dd36b4",
+                "sha256:e1273781c75862fc7ca2f4cb87897efc23d1df5d2261f6bdd73d4a9f23df8a25"
             ],
-            "version": "==0.3.21"
+            "version": "==0.3.24"
         },
         "beautifulsoup4": {
             "hashes": [
@@ -727,11 +727,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:03a6c4a356aeafd54b813a7d13618310578fd935d7137dfc1475c5c0df9f2eb0",
-                "sha256:b30546c70e6dab2dcff0dde9b15c8c198fece9cd84d13eee18d33957c83d9e57"
+                "sha256:395e3a7cdca88c98323d357e39059fbad259e67fb4184ec427effdcb5cf7d560",
+                "sha256:46cbfded48f6995f5d6a622e20ca1dce8ae8d66b839ab85fbd1327715a79fc00"
             ],
             "index": "pypi",
-            "version": "==2.0.450"
+            "version": "==2.0.451"
         },
         "click": {
             "hashes": [
@@ -1082,7 +1082,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
