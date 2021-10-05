@@ -139,11 +139,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:01e5b26ae330e207926fc00ebce6bbf19f3456243546f1acee68a1d9aea59554",
-                "sha256:19542d938b1d36e4a7495fab17c62b58713364a8001d057e0c289d4b17a84eb6"
+                "sha256:e034220be082ee282ad8880d4f802fcd509a068b189c8e4100f87b75dd2e5357",
+                "sha256:fa34e38f701dd239dd646447528dd408519253f4907795c560f98ed50d8f6e54"
             ],
             "index": "pypi",
-            "version": "==2.0.469"
+            "version": "==2.0.475"
         },
         "click": {
             "hashes": [
@@ -293,10 +293,10 @@
         },
         "jinja2": {
             "hashes": [
-                "sha256:1f06f2da51e7b56b8f238affdd6b4e2c61e39598a378cc49345bc1bd42a978a4",
-                "sha256:703f484b47a6af502e743c9122595cc812b0271f661722403114f71a79d0f5a4"
+                "sha256:827a0e32839ab1600d4eb1c4c33ec5a8edfbc5cb42dafa13b81f182f97784b45",
+                "sha256:8569982d3f0889eed11dd620c706d39b60c36d6d25843961f33f77fb6bc6b20c"
             ],
-            "version": "==3.0.1"
+            "version": "==3.0.2"
         },
         "jmespath": {
             "hashes": [
@@ -728,11 +728,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:01e5b26ae330e207926fc00ebce6bbf19f3456243546f1acee68a1d9aea59554",
-                "sha256:19542d938b1d36e4a7495fab17c62b58713364a8001d057e0c289d4b17a84eb6"
+                "sha256:e034220be082ee282ad8880d4f802fcd509a068b189c8e4100f87b75dd2e5357",
+                "sha256:fa34e38f701dd239dd646447528dd408519253f4907795c560f98ed50d8f6e54"
             ],
             "index": "pypi",
-            "version": "==2.0.469"
+            "version": "==2.0.475"
         },
         "click": {
             "hashes": [
@@ -842,10 +842,10 @@
         },
         "jinja2": {
             "hashes": [
-                "sha256:1f06f2da51e7b56b8f238affdd6b4e2c61e39598a378cc49345bc1bd42a978a4",
-                "sha256:703f484b47a6af502e743c9122595cc812b0271f661722403114f71a79d0f5a4"
+                "sha256:827a0e32839ab1600d4eb1c4c33ec5a8edfbc5cb42dafa13b81f182f97784b45",
+                "sha256:8569982d3f0889eed11dd620c706d39b60c36d6d25843961f33f77fb6bc6b20c"
             ],
-            "version": "==3.0.1"
+            "version": "==3.0.2"
         },
         "jmespath": {
             "hashes": [
