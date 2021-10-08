@@ -139,11 +139,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:7af792f07bf3e0bae541994223e064ca3db88fd4a64a94404bf4e96c945b4566",
-                "sha256:7f9374c5a070557eac2449a3bc863279a5e6b609be403176f781da94a5cc7ea5"
+                "sha256:67509868f5fc08c54fcdd635b9454c673b39ed8fa67c8833a26832b27c7be987",
+                "sha256:cf07990ed69dc723b344ac26c7319c9b6b434975dcc6d1dc3010f0ca3c2ad688"
             ],
             "index": "pypi",
-            "version": "==2.0.477"
+            "version": "==2.0.478"
         },
         "click": {
             "hashes": [
@@ -228,10 +228,10 @@
         },
         "docker": {
             "hashes": [
-                "sha256:21ec4998e90dff7a7aaaa098ca8d839c7de412b89e6f6c30908372d58fecf663",
-                "sha256:9b17f0723d83c1f3418d2aa17bf90b24dbe97deda06208dd4262fa30a6ee87eb"
+                "sha256:7a79bb439e3df59d0a72621775d600bc8bc8b422d285824cb37103eab91d1ce0",
+                "sha256:d916a26b62970e7c2f554110ed6af04c7ccff8e9f81ad17d0d40c75637e227fb"
             ],
-            "version": "==5.0.2"
+            "version": "==5.0.3"
         },
         "dockerfile-parse": {
             "hashes": [
@@ -728,11 +728,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:7af792f07bf3e0bae541994223e064ca3db88fd4a64a94404bf4e96c945b4566",
-                "sha256:7f9374c5a070557eac2449a3bc863279a5e6b609be403176f781da94a5cc7ea5"
+                "sha256:67509868f5fc08c54fcdd635b9454c673b39ed8fa67c8833a26832b27c7be987",
+                "sha256:cf07990ed69dc723b344ac26c7319c9b6b434975dcc6d1dc3010f0ca3c2ad688"
             ],
             "index": "pypi",
-            "version": "==2.0.477"
+            "version": "==2.0.478"
         },
         "click": {
             "hashes": [
@@ -792,10 +792,10 @@
         },
         "docker": {
             "hashes": [
-                "sha256:21ec4998e90dff7a7aaaa098ca8d839c7de412b89e6f6c30908372d58fecf663",
-                "sha256:9b17f0723d83c1f3418d2aa17bf90b24dbe97deda06208dd4262fa30a6ee87eb"
+                "sha256:7a79bb439e3df59d0a72621775d600bc8bc8b422d285824cb37103eab91d1ce0",
+                "sha256:d916a26b62970e7c2f554110ed6af04c7ccff8e9f81ad17d0d40c75637e227fb"
             ],
-            "version": "==5.0.2"
+            "version": "==5.0.3"
         },
         "dockerfile-parse": {
             "hashes": [
