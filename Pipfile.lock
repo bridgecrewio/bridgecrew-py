@@ -144,11 +144,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:76c34a008ca85c61f9b7600186a5930c90cefe0f402712f4072de3de7089ed77",
-                "sha256:c36ebdf42a96ed13b23f52afd9a704d5b9c401ecf49dfe20a0d90d15a53d510f"
+                "sha256:8d7efbfca693044ea790f634594723d2ce7a6cb3c55f463bae2ed9dbb75992d5",
+                "sha256:d25cc29b1c416301fac833c74c891ae693f0b1a147b048b1154aed9e278a9726"
             ],
             "index": "pypi",
-            "version": "==2.0.492"
+            "version": "==2.0.493"
         },
         "click": {
             "hashes": [
@@ -216,6 +216,13 @@
                 "sha256:ebeddd119f526bcf323a89f853afb12e225902a24d29b55fe18dd6fcb2838a76"
             ],
             "version": "==35.0.0"
+        },
+        "cyclonedx-python-lib": {
+            "hashes": [
+                "sha256:49a53c24a7fc727d22e463e9efc49d1859fd1a3842cf96d542d1de30953d21c3",
+                "sha256:92523126cfe4c3a46517767730f82c7ce7a38c2f882ee0832cc113cd0c625247"
+            ],
+            "version": "==0.8.3"
         },
         "deep-merge": {
             "hashes": [
@@ -417,6 +424,13 @@
             ],
             "version": "==2.6.3"
         },
+        "packageurl-python": {
+            "hashes": [
+                "sha256:676dcb8278721df952e2444bfcd8d7bf3518894498050f0c6a5faddbe0860cd0",
+                "sha256:c01fbaf62ad2eb791e97158d1f30349e830bee2dd3e9503a87f6c3ffae8d1cf0"
+            ],
+            "version": "==0.9.6"
+        },
         "packaging": {
             "hashes": [
                 "sha256:7dc96269f53a4ccec5c0670940a4281106dd0bb343f47b7471f779df49c2fbe7",
@@ -539,6 +553,13 @@
             ],
             "version": "==0.9.1"
         },
+        "requirements-parser": {
+            "hashes": [
+                "sha256:5963ee895c2d05ae9f58d3fc641082fb38021618979d6a152b6b1398bd7d4ed4",
+                "sha256:76650b4a9d98fc65edf008a7920c076bb2a76c08eaae230ce4cfc6f51ea6a773"
+            ],
+            "version": "==0.2.0"
+        },
         "rfc3986": {
             "hashes": [
                 "sha256:270aaf10d87d0d4e095063c65bf3ddbc6ee3d0b226328ce21e036f946e421835",
@@ -617,6 +638,13 @@
             ],
             "version": "==1.1.0"
         },
+        "toml": {
+            "hashes": [
+                "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b",
+                "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"
+            ],
+            "version": "==0.10.2"
+        },
         "tqdm": {
             "hashes": [
                 "sha256:8dd278a422499cd6b727e6ae4061c40b48fce8b76d1ccbf5d34fca9b7f925b0c",
@@ -638,7 +666,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
@@ -737,11 +765,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:76c34a008ca85c61f9b7600186a5930c90cefe0f402712f4072de3de7089ed77",
-                "sha256:c36ebdf42a96ed13b23f52afd9a704d5b9c401ecf49dfe20a0d90d15a53d510f"
+                "sha256:8d7efbfca693044ea790f634594723d2ce7a6cb3c55f463bae2ed9dbb75992d5",
+                "sha256:d25cc29b1c416301fac833c74c891ae693f0b1a147b048b1154aed9e278a9726"
             ],
             "index": "pypi",
-            "version": "==2.0.492"
+            "version": "==2.0.493"
         },
         "click": {
             "hashes": [
@@ -784,6 +812,13 @@
                 "sha256:ab1e2bfe1d01d968e1b7e8d9023bc51ef3509bba217bb730cee3827e1ee82869"
             ],
             "version": "==21.6.0"
+        },
+        "cyclonedx-python-lib": {
+            "hashes": [
+                "sha256:49a53c24a7fc727d22e463e9efc49d1859fd1a3842cf96d542d1de30953d21c3",
+                "sha256:92523126cfe4c3a46517767730f82c7ce7a38c2f882ee0832cc113cd0c625247"
+            ],
+            "version": "==0.8.3"
         },
         "deep-merge": {
             "hashes": [
@@ -948,6 +983,13 @@
             ],
             "version": "==2.6.3"
         },
+        "packageurl-python": {
+            "hashes": [
+                "sha256:676dcb8278721df952e2444bfcd8d7bf3518894498050f0c6a5faddbe0860cd0",
+                "sha256:c01fbaf62ad2eb791e97158d1f30349e830bee2dd3e9503a87f6c3ffae8d1cf0"
+            ],
+            "version": "==0.9.6"
+        },
         "packaging": {
             "hashes": [
                 "sha256:7dc96269f53a4ccec5c0670940a4281106dd0bb343f47b7471f779df49c2fbe7",
@@ -1028,6 +1070,13 @@
             ],
             "version": "==2.26.0"
         },
+        "requirements-parser": {
+            "hashes": [
+                "sha256:5963ee895c2d05ae9f58d3fc641082fb38021618979d6a152b6b1398bd7d4ed4",
+                "sha256:76650b4a9d98fc65edf008a7920c076bb2a76c08eaae230ce4cfc6f51ea6a773"
+            ],
+            "version": "==0.2.0"
+        },
         "s3transfer": {
             "hashes": [
                 "sha256:9b3752887a2880690ce628bc263d6d13a3864083aeacff4890c1c9839a5eb0bc",
@@ -1083,6 +1132,13 @@
             ],
             "version": "==1.1.0"
         },
+        "toml": {
+            "hashes": [
+                "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b",
+                "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"
+            ],
+            "version": "==0.10.2"
+        },
         "tqdm": {
             "hashes": [
                 "sha256:8dd278a422499cd6b727e6ae4061c40b48fce8b76d1ccbf5d34fca9b7f925b0c",
@@ -1096,7 +1152,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
