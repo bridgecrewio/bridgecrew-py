@@ -144,11 +144,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:23cd6bf010a0441a026ce3360de283aea37e15c397542aa8b65f49b9b045d18f",
-                "sha256:eeb5095a9b68053f08e5a554a27e316383c71bbe82c6e5402cd27648d8b9360e"
+                "sha256:0a6e67997f344b537047820bf042211e0e188dddb07d239a6099cf62577cc7d9",
+                "sha256:473ff4e5ce12630da32f57b756380a0a32ed0260f9d3d1ad0eca343ddd3cf611"
             ],
             "index": "pypi",
-            "version": "==2.0.495"
+            "version": "==2.0.496"
         },
         "click": {
             "hashes": [
@@ -219,10 +219,10 @@
         },
         "cyclonedx-python-lib": {
             "hashes": [
-                "sha256:49a53c24a7fc727d22e463e9efc49d1859fd1a3842cf96d542d1de30953d21c3",
-                "sha256:92523126cfe4c3a46517767730f82c7ce7a38c2f882ee0832cc113cd0c625247"
+                "sha256:2e5d48dcfc7963483bc77dec6fb945a35e1af8b283a48bd4c7f524665ae8a5ed",
+                "sha256:441564d93740f375d3ab05a96def79387e416b299bed056d039588c4af441d00"
             ],
-            "version": "==0.8.3"
+            "version": "==0.9.1"
         },
         "deep-merge": {
             "hashes": [
@@ -666,7 +666,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
@@ -765,11 +765,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:23cd6bf010a0441a026ce3360de283aea37e15c397542aa8b65f49b9b045d18f",
-                "sha256:eeb5095a9b68053f08e5a554a27e316383c71bbe82c6e5402cd27648d8b9360e"
+                "sha256:0a6e67997f344b537047820bf042211e0e188dddb07d239a6099cf62577cc7d9",
+                "sha256:473ff4e5ce12630da32f57b756380a0a32ed0260f9d3d1ad0eca343ddd3cf611"
             ],
             "index": "pypi",
-            "version": "==2.0.495"
+            "version": "==2.0.496"
         },
         "click": {
             "hashes": [
@@ -815,10 +815,10 @@
         },
         "cyclonedx-python-lib": {
             "hashes": [
-                "sha256:49a53c24a7fc727d22e463e9efc49d1859fd1a3842cf96d542d1de30953d21c3",
-                "sha256:92523126cfe4c3a46517767730f82c7ce7a38c2f882ee0832cc113cd0c625247"
+                "sha256:2e5d48dcfc7963483bc77dec6fb945a35e1af8b283a48bd4c7f524665ae8a5ed",
+                "sha256:441564d93740f375d3ab05a96def79387e416b299bed056d039588c4af441d00"
             ],
-            "version": "==0.8.3"
+            "version": "==0.9.1"
         },
         "deep-merge": {
             "hashes": [
@@ -1152,7 +1152,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
