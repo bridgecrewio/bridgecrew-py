@@ -144,11 +144,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:712018c0a4f791bbebc1b22dc384cae153c1553016db4162cb52c4b8332e69c3",
-                "sha256:8170471d48396d843aa1aa4a59fc70680365f292e022666f05e13cd38cf5a7f2"
+                "sha256:63fed662eee7382b45f711e53448e6f04a596aa48019c721fb550e4df746db8a",
+                "sha256:d313da79efff2a639d3060da457caf848a8dc94f87fe2a641f3e5fc56bdfb6e6"
             ],
             "index": "pypi",
-            "version": "==2.0.521"
+            "version": "==2.0.522"
         },
         "click": {
             "hashes": [
@@ -681,7 +681,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.8'",
+            "markers": "python_version >= '3.6' and python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
@@ -780,11 +780,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:712018c0a4f791bbebc1b22dc384cae153c1553016db4162cb52c4b8332e69c3",
-                "sha256:8170471d48396d843aa1aa4a59fc70680365f292e022666f05e13cd38cf5a7f2"
+                "sha256:63fed662eee7382b45f711e53448e6f04a596aa48019c721fb550e4df746db8a",
+                "sha256:d313da79efff2a639d3060da457caf848a8dc94f87fe2a641f3e5fc56bdfb6e6"
             ],
             "index": "pypi",
-            "version": "==2.0.521"
+            "version": "==2.0.522"
         },
         "click": {
             "hashes": [
@@ -1182,7 +1182,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.8'",
+            "markers": "python_version >= '3.6' and python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
