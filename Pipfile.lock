@@ -144,11 +144,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:9e78c83ba6c1a2f0ce334c628cbc5a1b0243335978be834cfd376443788e7baa",
-                "sha256:e8800dfbf4fe25810fb266c6f08c27f4b8eafb2eac94dfffab2fa501b4989a95"
+                "sha256:b54467ec363bb5cceee6523311f42eebb261937fb9e33229c582a7341e9d63f3",
+                "sha256:c21ab784b1678f15ba94e04cc45e570816bba72ae9283709ac9798f263998163"
             ],
             "index": "pypi",
-            "version": "==2.0.516"
+            "version": "==2.0.517"
         },
         "click": {
             "hashes": [
@@ -780,11 +780,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:9e78c83ba6c1a2f0ce334c628cbc5a1b0243335978be834cfd376443788e7baa",
-                "sha256:e8800dfbf4fe25810fb266c6f08c27f4b8eafb2eac94dfffab2fa501b4989a95"
+                "sha256:b54467ec363bb5cceee6523311f42eebb261937fb9e33229c582a7341e9d63f3",
+                "sha256:c21ab784b1678f15ba94e04cc45e570816bba72ae9283709ac9798f263998163"
             ],
             "index": "pypi",
-            "version": "==2.0.516"
+            "version": "==2.0.517"
         },
         "click": {
             "hashes": [
