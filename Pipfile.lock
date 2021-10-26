@@ -144,11 +144,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:8dc2471f8de6fe53454ab47f26513582b74231b7cd1fc78d8c82e5528dbd8850",
-                "sha256:b1bc8e5e764abb9475e56fbf96ca4a86feb79774f929b7bab3e911abdcef8af2"
+                "sha256:543010e9ce98047de899aa7dc38b580fd10cb2a43813ada6f185420dc264abb5",
+                "sha256:9bd956460a9987b731600a0ddbe47e06e653d553d6c3266e9cc43a3d6078c379"
             ],
             "index": "pypi",
-            "version": "==2.0.523"
+            "version": "==2.0.524"
         },
         "click": {
             "hashes": [
@@ -292,7 +292,7 @@
                 "sha256:b618b6d2d5ffa2f16add5697cf57a46c76a56229b0ed1c438322e4e95645bd15",
                 "sha256:f284b3e11256ad1e5d03ab86bb2ccd6f5339688ff17a4d797a0fe7df326f23b1"
             ],
-            "markers": "python_version >= '3.6' and python_version < '3.8'",
+            "markers": "python_version < '3.8'",
             "version": "==4.8.1"
         },
         "jeepney": {
@@ -780,11 +780,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:8dc2471f8de6fe53454ab47f26513582b74231b7cd1fc78d8c82e5528dbd8850",
-                "sha256:b1bc8e5e764abb9475e56fbf96ca4a86feb79774f929b7bab3e911abdcef8af2"
+                "sha256:543010e9ce98047de899aa7dc38b580fd10cb2a43813ada6f185420dc264abb5",
+                "sha256:9bd956460a9987b731600a0ddbe47e06e653d553d6c3266e9cc43a3d6078c379"
             ],
             "index": "pypi",
-            "version": "==2.0.523"
+            "version": "==2.0.524"
         },
         "click": {
             "hashes": [
@@ -896,7 +896,7 @@
                 "sha256:b618b6d2d5ffa2f16add5697cf57a46c76a56229b0ed1c438322e4e95645bd15",
                 "sha256:f284b3e11256ad1e5d03ab86bb2ccd6f5339688ff17a4d797a0fe7df326f23b1"
             ],
-            "markers": "python_version >= '3.6' and python_version < '3.8'",
+            "markers": "python_version < '3.8'",
             "version": "==4.8.1"
         },
         "jinja2": {
