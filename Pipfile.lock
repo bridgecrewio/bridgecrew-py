@@ -144,11 +144,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:6347c6ece89290852560ee3176ff2bac877d6fca7b907185302403e13669c9e6",
-                "sha256:f24d6aea2f5a35f4e256be754a376d78a9c44244b0a4166d673e7dc90b9a12aa"
+                "sha256:696e910154dee40cd80cc1deb4c1f14284ef8da909b4b23c38f9dc516b6d55e2",
+                "sha256:9e351c09cc006013f607c130df8e6b53f1d7033b515510fe18f727646405bafa"
             ],
             "index": "pypi",
-            "version": "==2.0.527"
+            "version": "==2.0.528"
         },
         "click": {
             "hashes": [
@@ -497,10 +497,10 @@
         },
         "pyparsing": {
             "hashes": [
-                "sha256:84196357aa3566d64ad123d7a3c67b0e597a115c4934b097580e5ce220b91531",
-                "sha256:fd93fc45c47893c300bd98f5dd1b41c0e783eaeb727e7cea210dcc09d64ce7c3"
+                "sha256:9e3511118010f112a4b4b435ae50e1eaa610cda191acb9e421d60cf5fde83455",
+                "sha256:f8d3fe9fc404576c5164f0f0c4e382c96b85265e023c409c43d48f65da9d60d0"
             ],
-            "version": "==3.0.1"
+            "version": "==3.0.3"
         },
         "python-dateutil": {
             "hashes": [
@@ -681,7 +681,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.8'",
+            "markers": "python_version < '3.10'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
@@ -780,11 +780,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:6347c6ece89290852560ee3176ff2bac877d6fca7b907185302403e13669c9e6",
-                "sha256:f24d6aea2f5a35f4e256be754a376d78a9c44244b0a4166d673e7dc90b9a12aa"
+                "sha256:696e910154dee40cd80cc1deb4c1f14284ef8da909b4b23c38f9dc516b6d55e2",
+                "sha256:9e351c09cc006013f607c130df8e6b53f1d7033b515510fe18f727646405bafa"
             ],
             "index": "pypi",
-            "version": "==2.0.527"
+            "version": "==2.0.528"
         },
         "click": {
             "hashes": [
@@ -1043,10 +1043,10 @@
         },
         "pyparsing": {
             "hashes": [
-                "sha256:84196357aa3566d64ad123d7a3c67b0e597a115c4934b097580e5ce220b91531",
-                "sha256:fd93fc45c47893c300bd98f5dd1b41c0e783eaeb727e7cea210dcc09d64ce7c3"
+                "sha256:9e3511118010f112a4b4b435ae50e1eaa610cda191acb9e421d60cf5fde83455",
+                "sha256:f8d3fe9fc404576c5164f0f0c4e382c96b85265e023c409c43d48f65da9d60d0"
             ],
-            "version": "==3.0.1"
+            "version": "==3.0.3"
         },
         "python-dateutil": {
             "hashes": [
@@ -1182,7 +1182,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.8'",
+            "markers": "python_version < '3.10'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
