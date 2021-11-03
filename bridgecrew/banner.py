@@ -1,5 +1,6 @@
 from bridgecrew.version import version
 
+tool = "Bridgecrew"
 banner = """
 
   _          _     _                                   
