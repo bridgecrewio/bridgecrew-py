@@ -5,12 +5,12 @@ from checkov.main import run as checkov_run
 from checkov.terraform.checks.resource.base_resource_check import BaseResourceCheck
 from checkov.common.models.enums import CheckResult, CheckCategories
 from bridgecrew.output.custom_runner_registry import CustomRunnerRegistry
-from bridgecrew.banner import banner
+from bridgecrew.banner import banner, tool
 from checkov.main import DEFAULT_RUNNERS
 
 
 def run():
-    main.outer_registry = CustomRunnerRegistry(banner,None, *DEFAULT_RUNNERS)
+    main.outer_registry = CustomRunnerRegistry(banner, tool, None, *DEFAULT_RUNNERS)
     exit_code = main.run(banner)
     if exit_code:
         exit(exit_code)

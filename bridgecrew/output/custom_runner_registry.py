@@ -6,8 +6,8 @@ from bridgecrew.output.sarif import SarifReport
 
 
 class CustomRunnerRegistry(RunnerRegistry):
-    def __init__(self, banner, runner_filter, *runners):
-        super().__init__(banner, runner_filter, *runners)
+    def __init__(self, banner, tool, runner_filter, *runners):
+        super().__init__(banner, tool, runner_filter, *runners)
         OUTPUT_CHOICES.append("sarif")
 
     def print_reports(self, scan_reports, args, url=None, created_baseline_path=None, baseline=None):
