@@ -144,11 +144,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:2cdba4712211399fcfe72733e852cf66f28f77ece75e52829d5f411eb06962d1",
-                "sha256:654ebc9c704d55ee27523bb8be664104d6635adbaba1e9fa556419478e8d62ae"
+                "sha256:9534d8d877dc862b1a1bbb871bab8c87a54049ba8384eaea338a330b94f6987b",
+                "sha256:99126e23d30e2a11e28f1fbfbd3504db8791cfe5f7b5425caaa9d78519f512f0"
             ],
             "index": "pypi",
-            "version": "==2.0.541"
+            "version": "==2.0.542"
         },
         "click": {
             "hashes": [
@@ -455,10 +455,10 @@
         },
         "pbr": {
             "hashes": [
-                "sha256:42df03e7797b796625b1029c0400279c7c34fd7df24a7d7818a1abb5b38710dd",
-                "sha256:c68c661ac5cc81058ac94247278eeda6d2e6aecb3e227b0387c30d277e7ef8d4"
+                "sha256:4651ca1445e80f2781827305de3d76b3ce53195f2227762684eb08f17bc473b7",
+                "sha256:60002958e459b195e8dbe61bf22bcf344eedf1b4e03a321a5414feb15566100c"
             ],
-            "version": "==5.6.0"
+            "version": "==5.7.0"
         },
         "pkginfo": {
             "hashes": [
@@ -681,7 +681,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
@@ -780,11 +780,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:2cdba4712211399fcfe72733e852cf66f28f77ece75e52829d5f411eb06962d1",
-                "sha256:654ebc9c704d55ee27523bb8be664104d6635adbaba1e9fa556419478e8d62ae"
+                "sha256:9534d8d877dc862b1a1bbb871bab8c87a54049ba8384eaea338a330b94f6987b",
+                "sha256:99126e23d30e2a11e28f1fbfbd3504db8791cfe5f7b5425caaa9d78519f512f0"
             ],
             "index": "pypi",
-            "version": "==2.0.541"
+            "version": "==2.0.542"
         },
         "click": {
             "hashes": [
@@ -1182,7 +1182,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
