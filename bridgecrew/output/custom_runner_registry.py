@@ -1,14 +1,15 @@
-import json
 from checkov.common.output.report import Report
 from checkov.common.runners.runner_registry import RunnerRegistry, OUTPUT_CHOICES
 
 from bridgecrew.output.sarif import SarifReport
+from bridgecrew.banner import banner, tool
 
 
 class CustomRunnerRegistry(RunnerRegistry):
-    def __init__(self, banner, tool, runner_filter, *runners):
-        super().__init__(banner, tool, runner_filter, *runners)
+    def __init__(self, banner, runner_filter, *runners):
+        super().__init__(banner, runner_filter, *runners)
         OUTPUT_CHOICES.append("sarif")
+        self.tool = tool
 
     def print_reports(self, scan_reports, args, url=None, created_baseline_path=None, baseline=None):
         exit_codes = []
