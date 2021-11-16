@@ -166,7 +166,8 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:66e8ae9249b1a66f049baae05b2d0556193db9efae58fc5791186341e123001c"
+                "sha256:66e8ae9249b1a66f049baae05b2d0556193db9efae58fc5791186341e123001c",
+                "sha256:9e8d870a0a4335ce4816c707137da54b1ab7bf98f0ed959a7ba59c98c7f6c057"
             ],
             "version": "==1.23.6"
         },
@@ -256,11 +257,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:7f1a836e59d95c6fa356005b93eac0dbc601af91a8688314214022eb04e54291",
-                "sha256:de8af103aa4fd21efa405ff2e27063baba479159dc9ca671642b870d7a7536e4"
+                "sha256:471bbdab230ca50322547933662642a85be81f937040376a1c16bd9bee7df86a",
+                "sha256:5a02b2921af40e5a72d212b98fc4c02c8f34653c892752d4edc9c0e572b92e99"
             ],
             "index": "pypi",
-            "version": "==2.0.574"
+            "version": "==2.0.576"
         },
         "click": {
             "hashes": [
@@ -1242,7 +1243,8 @@
         },
         "botocore": {
             "hashes": [
-                "sha256:66e8ae9249b1a66f049baae05b2d0556193db9efae58fc5791186341e123001c"
+                "sha256:66e8ae9249b1a66f049baae05b2d0556193db9efae58fc5791186341e123001c",
+                "sha256:9e8d870a0a4335ce4816c707137da54b1ab7bf98f0ed959a7ba59c98c7f6c057"
             ],
             "version": "==1.23.6"
         },
@@ -1332,11 +1334,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:7f1a836e59d95c6fa356005b93eac0dbc601af91a8688314214022eb04e54291",
-                "sha256:de8af103aa4fd21efa405ff2e27063baba479159dc9ca671642b870d7a7536e4"
+                "sha256:471bbdab230ca50322547933662642a85be81f937040376a1c16bd9bee7df86a",
+                "sha256:5a02b2921af40e5a72d212b98fc4c02c8f34653c892752d4edc9c0e572b92e99"
             ],
             "index": "pypi",
-            "version": "==2.0.574"
+            "version": "==2.0.576"
         },
         "click": {
             "hashes": [
