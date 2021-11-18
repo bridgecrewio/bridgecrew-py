@@ -257,11 +257,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1c2fbbd0056c87860555c981d03bcd753a1f56a630e6cc5e26ce01340d702e75",
-                "sha256:3ae471befb1f54edc9d2be3aa16d4605304e31e96f71652c30e6996996725226"
+                "sha256:01585c97c2603304fc24475499fb0a1500796e9fe34d944f71ebe6bf0f6864fa",
+                "sha256:1619eb60c36e71d933eb29c680d54d19efaa0f7ed254b6c8111d84ed74928a6b"
             ],
             "index": "pypi",
-            "version": "==2.0.585"
+            "version": "==2.0.586"
         },
         "click": {
             "hashes": [
@@ -482,7 +482,7 @@
                 "sha256:53ccfd5c134223e497627b9815d5030edf77d2ed573922f7a0b8f8bb81a1c100",
                 "sha256:75bdec14c397f528724c1bfd9709d660b33a4d2e77387a3358f20b848bb5e5fb"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==4.8.2"
         },
         "jeepney": {
@@ -722,10 +722,10 @@
         },
         "pbr": {
             "hashes": [
-                "sha256:4651ca1445e80f2781827305de3d76b3ce53195f2227762684eb08f17bc473b7",
-                "sha256:60002958e459b195e8dbe61bf22bcf344eedf1b4e03a321a5414feb15566100c"
+                "sha256:176e8560eaf61e127817ef93d8a844803abb27a4d4637f0ff3bb783129be2e0a",
+                "sha256:672d8ebee84921862110f23fcec2acea191ef58543d34dfe9ef3d9f13c31cddf"
             ],
-            "version": "==5.7.0"
+            "version": "==5.8.0"
         },
         "pkginfo": {
             "hashes": [
@@ -1334,11 +1334,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1c2fbbd0056c87860555c981d03bcd753a1f56a630e6cc5e26ce01340d702e75",
-                "sha256:3ae471befb1f54edc9d2be3aa16d4605304e31e96f71652c30e6996996725226"
+                "sha256:01585c97c2603304fc24475499fb0a1500796e9fe34d944f71ebe6bf0f6864fa",
+                "sha256:1619eb60c36e71d933eb29c680d54d19efaa0f7ed254b6c8111d84ed74928a6b"
             ],
             "index": "pypi",
-            "version": "==2.0.585"
+            "version": "==2.0.586"
         },
         "click": {
             "hashes": [
@@ -1527,7 +1527,7 @@
                 "sha256:53ccfd5c134223e497627b9815d5030edf77d2ed573922f7a0b8f8bb81a1c100",
                 "sha256:75bdec14c397f528724c1bfd9709d660b33a4d2e77387a3358f20b848bb5e5fb"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==4.8.2"
         },
         "jinja2": {
