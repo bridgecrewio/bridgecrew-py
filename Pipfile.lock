@@ -256,11 +256,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:0a1babbfed8189ff8e90c680be8890dbef0a3144ea380189f582a6535179defc",
-                "sha256:4d5ee64481a9a52abf400872d539710066957de079f98326ebca1a262af32fab"
+                "sha256:285e629cbdf3a22dd4f8cbfa9f87d94a1d3c935c9b06649cc5f5719a9b8e3ccf",
+                "sha256:a6eadab31e7f93441fb541a9fffbe2d374d1828cd8cdd266ac29466ad5e142a9"
             ],
             "index": "pypi",
-            "version": "==2.0.601"
+            "version": "==2.0.602"
         },
         "click": {
             "hashes": [
@@ -482,7 +482,7 @@
                 "sha256:53ccfd5c134223e497627b9815d5030edf77d2ed573922f7a0b8f8bb81a1c100",
                 "sha256:75bdec14c397f528724c1bfd9709d660b33a4d2e77387a3358f20b848bb5e5fb"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==4.8.2"
         },
         "jeepney": {
@@ -983,7 +983,7 @@
                 "sha256:2cdf80e4e04866a9b3689a51869016d36db0814d84b8d8a568d22781d45d27ed",
                 "sha256:829704698b22e13ec9eaf959122315eabb370b0884400e9818334d8b677023d9"
             ],
-            "markers": "python_version < '3.8'",
+            "markers": "python_version < '3.10'",
             "version": "==4.0.0"
         },
         "update-checker": {
@@ -1333,11 +1333,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:0a1babbfed8189ff8e90c680be8890dbef0a3144ea380189f582a6535179defc",
-                "sha256:4d5ee64481a9a52abf400872d539710066957de079f98326ebca1a262af32fab"
+                "sha256:285e629cbdf3a22dd4f8cbfa9f87d94a1d3c935c9b06649cc5f5719a9b8e3ccf",
+                "sha256:a6eadab31e7f93441fb541a9fffbe2d374d1828cd8cdd266ac29466ad5e142a9"
             ],
             "index": "pypi",
-            "version": "==2.0.601"
+            "version": "==2.0.602"
         },
         "click": {
             "hashes": [
@@ -1526,7 +1526,7 @@
                 "sha256:53ccfd5c134223e497627b9815d5030edf77d2ed573922f7a0b8f8bb81a1c100",
                 "sha256:75bdec14c397f528724c1bfd9709d660b33a4d2e77387a3358f20b848bb5e5fb"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version < '3.8'",
             "version": "==4.8.2"
         },
         "jinja2": {
@@ -1931,7 +1931,7 @@
                 "sha256:2cdf80e4e04866a9b3689a51869016d36db0814d84b8d8a568d22781d45d27ed",
                 "sha256:829704698b22e13ec9eaf959122315eabb370b0884400e9818334d8b677023d9"
             ],
-            "markers": "python_version < '3.8'",
+            "markers": "python_version < '3.10'",
             "version": "==4.0.0"
         },
         "update-checker": {
