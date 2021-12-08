@@ -138,10 +138,10 @@
         },
         "bc-python-hcl2": {
             "hashes": [
-                "sha256:62c88c9133d148a478e75d5cb093aff7f25fd5bdd355433b3769489de8dd36b4",
-                "sha256:e1273781c75862fc7ca2f4cb87897efc23d1df5d2261f6bdd73d4a9f23df8a25"
+                "sha256:74e4b21d329b6bd9396617d075b835e5c0cb2ecdbd951fee631886de81f69c80",
+                "sha256:db2f14874cd049a7d05d56f0c14e6c6993975e62ef307c22b3b68091531ed38a"
             ],
-            "version": "==0.3.24"
+            "version": "==0.3.28"
         },
         "beautifulsoup4": {
             "hashes": [
@@ -257,11 +257,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:517b0eb937cf3d953285033bd1ecb19e29f268e2cb1d8969ecd754f9f4345b12",
-                "sha256:c41151c14d08aa82e646865fe7bf05c59e30051eb04c0d4de7ec0e4905d07981"
+                "sha256:52f9ff6b552aacf699c60674598bcea4fd1906a9aa6db38919bffd30b8d5a0c9",
+                "sha256:e1eccda3f45378e787978e6045b5be4e6d0b7d4a449e45406aa1a8fa1b49c37c"
             ],
             "index": "pypi",
-            "version": "==2.0.635"
+            "version": "==2.0.636"
         },
         "click": {
             "hashes": [
@@ -483,7 +483,7 @@
                 "sha256:53ccfd5c134223e497627b9815d5030edf77d2ed573922f7a0b8f8bb81a1c100",
                 "sha256:75bdec14c397f528724c1bfd9709d660b33a4d2e77387a3358f20b848bb5e5fb"
             ],
-            "markers": "python_version >= '3.6' and python_version < '3.8'",
+            "markers": "python_version < '3.8'",
             "version": "==4.8.2"
         },
         "jeepney": {
@@ -999,7 +999,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version >= '3.6' and python_version < '3.8'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
@@ -1238,10 +1238,10 @@
         },
         "bc-python-hcl2": {
             "hashes": [
-                "sha256:62c88c9133d148a478e75d5cb093aff7f25fd5bdd355433b3769489de8dd36b4",
-                "sha256:e1273781c75862fc7ca2f4cb87897efc23d1df5d2261f6bdd73d4a9f23df8a25"
+                "sha256:74e4b21d329b6bd9396617d075b835e5c0cb2ecdbd951fee631886de81f69c80",
+                "sha256:db2f14874cd049a7d05d56f0c14e6c6993975e62ef307c22b3b68091531ed38a"
             ],
-            "version": "==0.3.24"
+            "version": "==0.3.28"
         },
         "beautifulsoup4": {
             "hashes": [
@@ -1350,11 +1350,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:517b0eb937cf3d953285033bd1ecb19e29f268e2cb1d8969ecd754f9f4345b12",
-                "sha256:c41151c14d08aa82e646865fe7bf05c59e30051eb04c0d4de7ec0e4905d07981"
+                "sha256:52f9ff6b552aacf699c60674598bcea4fd1906a9aa6db38919bffd30b8d5a0c9",
+                "sha256:e1eccda3f45378e787978e6045b5be4e6d0b7d4a449e45406aa1a8fa1b49c37c"
             ],
             "index": "pypi",
-            "version": "==2.0.635"
+            "version": "==2.0.636"
         },
         "click": {
             "hashes": [
@@ -1543,7 +1543,7 @@
                 "sha256:53ccfd5c134223e497627b9815d5030edf77d2ed573922f7a0b8f8bb81a1c100",
                 "sha256:75bdec14c397f528724c1bfd9709d660b33a4d2e77387a3358f20b848bb5e5fb"
             ],
-            "markers": "python_version >= '3.6' and python_version < '3.8'",
+            "markers": "python_version < '3.8'",
             "version": "==4.8.2"
         },
         "jinja2": {
@@ -1963,7 +1963,7 @@
                 "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7",
                 "sha256:f1d25edafde516b146ecd0613dabcc61409817af4766fbbcfb8d1ad4ec441a34"
             ],
-            "markers": "python_version >= '3.6' and python_version < '3.8'",
+            "markers": "python_version < '3.8'",
             "version": "==3.10.0.2"
         },
         "update-checker": {
