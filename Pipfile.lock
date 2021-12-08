@@ -257,11 +257,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:197225b93aa3f98145d87b52594561761063409d15af47984cbaf51083b25339",
-                "sha256:ff7cc11c56c20862cf9a8080924ee3231515662b845daf14c21b08e641ace41b"
+                "sha256:517b0eb937cf3d953285033bd1ecb19e29f268e2cb1d8969ecd754f9f4345b12",
+                "sha256:c41151c14d08aa82e646865fe7bf05c59e30051eb04c0d4de7ec0e4905d07981"
             ],
             "index": "pypi",
-            "version": "==2.0.634"
+            "version": "==2.0.635"
         },
         "click": {
             "hashes": [
@@ -279,10 +279,10 @@
         },
         "cloudsplaining": {
             "hashes": [
-                "sha256:b76ac23e5c4efb282a5a987581deeca31e53027824b1983071e795f171a5016c",
-                "sha256:db4dd6da5da5c1a6a9ebfb4ded638941def7d05c90ff3f2836f2b78e4114ade7"
+                "sha256:42bbbf939490c17eb8fb2a98d199bd8ae3e07f10723affcdfcf557f57a9c64eb",
+                "sha256:9809454ec0e7f18f46ff47b0dbd50af2c01069b3ba6d2126843c1739ad3c4d2b"
             ],
-            "version": "==0.4.8"
+            "version": "==0.4.9"
         },
         "colorama": {
             "hashes": [
@@ -483,7 +483,7 @@
                 "sha256:53ccfd5c134223e497627b9815d5030edf77d2ed573922f7a0b8f8bb81a1c100",
                 "sha256:75bdec14c397f528724c1bfd9709d660b33a4d2e77387a3358f20b848bb5e5fb"
             ],
-            "markers": "python_version < '3.8'",
+            "markers": "python_version >= '3.6' and python_version < '3.8'",
             "version": "==4.8.2"
         },
         "jeepney": {
@@ -1025,10 +1025,10 @@
         },
         "websocket-client": {
             "hashes": [
-                "sha256:21861f8645eb5725d1becfe86d7e7ae1a31d98b72556f9d44fcc5100976353cf",
-                "sha256:5d6a25cf0a8e936f473eceb53c4017ca85d91c7bc45c31634b62ec7190f5728e"
+                "sha256:1315816c0acc508997eb3ae03b9d3ff619c9d12d544c9a9b553704b1cc4f6af5",
+                "sha256:2eed4cc58e4d65613ed6114af2f380f7910ff416fc8c46947f6e76b6815f56c0"
             ],
-            "version": "==1.2.2"
+            "version": "==1.2.3"
         },
         "yarl": {
             "hashes": [
@@ -1350,11 +1350,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:197225b93aa3f98145d87b52594561761063409d15af47984cbaf51083b25339",
-                "sha256:ff7cc11c56c20862cf9a8080924ee3231515662b845daf14c21b08e641ace41b"
+                "sha256:517b0eb937cf3d953285033bd1ecb19e29f268e2cb1d8969ecd754f9f4345b12",
+                "sha256:c41151c14d08aa82e646865fe7bf05c59e30051eb04c0d4de7ec0e4905d07981"
             ],
             "index": "pypi",
-            "version": "==2.0.634"
+            "version": "==2.0.635"
         },
         "click": {
             "hashes": [
@@ -1372,10 +1372,10 @@
         },
         "cloudsplaining": {
             "hashes": [
-                "sha256:b76ac23e5c4efb282a5a987581deeca31e53027824b1983071e795f171a5016c",
-                "sha256:db4dd6da5da5c1a6a9ebfb4ded638941def7d05c90ff3f2836f2b78e4114ade7"
+                "sha256:42bbbf939490c17eb8fb2a98d199bd8ae3e07f10723affcdfcf557f57a9c64eb",
+                "sha256:9809454ec0e7f18f46ff47b0dbd50af2c01069b3ba6d2126843c1739ad3c4d2b"
             ],
-            "version": "==0.4.8"
+            "version": "==0.4.9"
         },
         "colorama": {
             "hashes": [
@@ -1543,7 +1543,7 @@
                 "sha256:53ccfd5c134223e497627b9815d5030edf77d2ed573922f7a0b8f8bb81a1c100",
                 "sha256:75bdec14c397f528724c1bfd9709d660b33a4d2e77387a3358f20b848bb5e5fb"
             ],
-            "markers": "python_version < '3.8'",
+            "markers": "python_version >= '3.6' and python_version < '3.8'",
             "version": "==4.8.2"
         },
         "jinja2": {
@@ -1982,10 +1982,10 @@
         },
         "websocket-client": {
             "hashes": [
-                "sha256:21861f8645eb5725d1becfe86d7e7ae1a31d98b72556f9d44fcc5100976353cf",
-                "sha256:5d6a25cf0a8e936f473eceb53c4017ca85d91c7bc45c31634b62ec7190f5728e"
+                "sha256:1315816c0acc508997eb3ae03b9d3ff619c9d12d544c9a9b553704b1cc4f6af5",
+                "sha256:2eed4cc58e4d65613ed6114af2f380f7910ff416fc8c46947f6e76b6815f56c0"
             ],
-            "version": "==1.2.2"
+            "version": "==1.2.3"
         },
         "yarl": {
             "hashes": [
