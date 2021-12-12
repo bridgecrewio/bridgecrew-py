@@ -257,11 +257,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:083c9cac94c180cf389ee3e1b206ea741fd991f3977481425e7dd1828c444f7a",
-                "sha256:dceb3de45d9bb08d46f6fd6930daae3c8f872ffd5dfb8597cedb7a64eedcd2b4"
+                "sha256:0257751ae829576c2d09da88cfee1a3b932214920d9439048d0d2c8a5333c84d",
+                "sha256:b156d3858ecb1919424cb1b79531ece02f91711229bc9ee8f4e151a6d7d50fd1"
             ],
             "index": "pypi",
-            "version": "==2.0.651"
+            "version": "==2.0.652"
         },
         "click": {
             "hashes": [
@@ -483,7 +483,7 @@
                 "sha256:53ccfd5c134223e497627b9815d5030edf77d2ed573922f7a0b8f8bb81a1c100",
                 "sha256:75bdec14c397f528724c1bfd9709d660b33a4d2e77387a3358f20b848bb5e5fb"
             ],
-            "markers": "python_version < '3.8'",
+            "markers": "python_version < '3.10'",
             "version": "==4.8.2"
         },
         "jeepney": {
@@ -1350,11 +1350,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:083c9cac94c180cf389ee3e1b206ea741fd991f3977481425e7dd1828c444f7a",
-                "sha256:dceb3de45d9bb08d46f6fd6930daae3c8f872ffd5dfb8597cedb7a64eedcd2b4"
+                "sha256:0257751ae829576c2d09da88cfee1a3b932214920d9439048d0d2c8a5333c84d",
+                "sha256:b156d3858ecb1919424cb1b79531ece02f91711229bc9ee8f4e151a6d7d50fd1"
             ],
             "index": "pypi",
-            "version": "==2.0.651"
+            "version": "==2.0.652"
         },
         "click": {
             "hashes": [
@@ -1543,7 +1543,7 @@
                 "sha256:53ccfd5c134223e497627b9815d5030edf77d2ed573922f7a0b8f8bb81a1c100",
                 "sha256:75bdec14c397f528724c1bfd9709d660b33a4d2e77387a3358f20b848bb5e5fb"
             ],
-            "markers": "python_version < '3.8'",
+            "markers": "python_version < '3.10'",
             "version": "==4.8.2"
         },
         "jinja2": {
