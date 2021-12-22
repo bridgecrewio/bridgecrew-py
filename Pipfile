@@ -13,4 +13,4 @@ jschema_to_python = "*"
 twine = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
