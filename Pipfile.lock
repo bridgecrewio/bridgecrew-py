@@ -260,11 +260,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:0054456415f8b4b050b65c3cb27f5e75f235907aaac58e972536edd9b2db36f7",
-                "sha256:df30e7f33d8118d57d6a4632b3a7da70caf820aae2b2116a5b46cd6d491c26b1"
+                "sha256:c4798333e631e552f0ead2a37fe9d783f1c22b76219404a9fcde4f2fc280cb02",
+                "sha256:f504cf27cb50ad0af06766c956d08fec058cad6bd7251147d5afd8ea30f1d141"
             ],
             "index": "pypi",
-            "version": "==2.0.687"
+            "version": "==2.0.688"
         },
         "click": {
             "hashes": [
@@ -279,7 +279,7 @@
                 "sha256:9653a2297357335d7325a1827e71ac1245d91c97d959346a7decabd4a52d5354",
                 "sha256:a6e924f3c46b657feb5b72679f7e930f8e5b224b766ab35c91ae4019b4e0615e"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4.0'",
+            "markers": "python_version >= '3.6' and python_version < '4'",
             "version": "==0.5.3"
         },
         "cloudsplaining": {
@@ -345,7 +345,7 @@
                 "sha256:ba7297148c0f3a72ed3395495080be86a344539084f9d4df9c0f3b466e4f6e54",
                 "sha256:ea2d5393a3de4a347e9c99c6c59efe4e3f64da2fb48e80f3e350fee289fa8a73"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4.0'",
+            "markers": "python_version >= '3.6' and python_version < '4'",
             "version": "==0.12.3"
         },
         "deep-merge": {
@@ -1054,7 +1054,7 @@
                 "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece",
                 "sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4.0'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
             "version": "==1.26.7"
         },
         "webencodings": {
@@ -1396,11 +1396,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:0054456415f8b4b050b65c3cb27f5e75f235907aaac58e972536edd9b2db36f7",
-                "sha256:df30e7f33d8118d57d6a4632b3a7da70caf820aae2b2116a5b46cd6d491c26b1"
+                "sha256:c4798333e631e552f0ead2a37fe9d783f1c22b76219404a9fcde4f2fc280cb02",
+                "sha256:f504cf27cb50ad0af06766c956d08fec058cad6bd7251147d5afd8ea30f1d141"
             ],
             "index": "pypi",
-            "version": "==2.0.687"
+            "version": "==2.0.688"
         },
         "click": {
             "hashes": [
@@ -1415,7 +1415,7 @@
                 "sha256:9653a2297357335d7325a1827e71ac1245d91c97d959346a7decabd4a52d5354",
                 "sha256:a6e924f3c46b657feb5b72679f7e930f8e5b224b766ab35c91ae4019b4e0615e"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4.0'",
+            "markers": "python_version >= '3.6' and python_version < '4'",
             "version": "==0.5.3"
         },
         "cloudsplaining": {
@@ -1455,7 +1455,7 @@
                 "sha256:ba7297148c0f3a72ed3395495080be86a344539084f9d4df9c0f3b466e4f6e54",
                 "sha256:ea2d5393a3de4a347e9c99c6c59efe4e3f64da2fb48e80f3e350fee289fa8a73"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4.0'",
+            "markers": "python_version >= '3.6' and python_version < '4'",
             "version": "==0.12.3"
         },
         "deep-merge": {
@@ -2055,7 +2055,7 @@
                 "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece",
                 "sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4.0'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
             "version": "==1.26.7"
         },
         "websocket-client": {
