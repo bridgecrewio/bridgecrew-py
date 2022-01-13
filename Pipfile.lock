@@ -268,11 +268,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:6b76d54bd111048169a2485b7dda91394364cb52064b153ff4f38a06693704de",
-                "sha256:84e890799a2e16a673a59472c191a3c04a69d5d31c4572407f78f5e8a0654b84"
+                "sha256:1b36f649219c3912261f77e6105d1c21c172f8b6d6cb5844a118810da5ab0800",
+                "sha256:9e8f130e073550cd37345ed39e20b9bc36508d2f9e182e9d49012dba95b228c7"
             ],
             "index": "pypi",
-            "version": "==2.0.714"
+            "version": "==2.0.715"
         },
         "click": {
             "hashes": [
@@ -350,11 +350,11 @@
         },
         "cyclonedx-python-lib": {
             "hashes": [
-                "sha256:86680b824dacd2e77a53b616a738eb71d5ccd3591cfa8fcdbc790b06c49e5619",
-                "sha256:b8ff2a5c67f6add4104f38727c9c656dcf48e0089d87b8cd73b2cc944bd8b56e"
+                "sha256:ba7297148c0f3a72ed3395495080be86a344539084f9d4df9c0f3b466e4f6e54",
+                "sha256:ea2d5393a3de4a347e9c99c6c59efe4e3f64da2fb48e80f3e350fee289fa8a73"
             ],
             "markers": "python_version >= '3.6' and python_version < '4'",
-            "version": "==1.1.0"
+            "version": "==0.12.3"
         },
         "decorator": {
             "hashes": [
@@ -1470,11 +1470,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:6b76d54bd111048169a2485b7dda91394364cb52064b153ff4f38a06693704de",
-                "sha256:84e890799a2e16a673a59472c191a3c04a69d5d31c4572407f78f5e8a0654b84"
+                "sha256:1b36f649219c3912261f77e6105d1c21c172f8b6d6cb5844a118810da5ab0800",
+                "sha256:9e8f130e073550cd37345ed39e20b9bc36508d2f9e182e9d49012dba95b228c7"
             ],
             "index": "pypi",
-            "version": "==2.0.714"
+            "version": "==2.0.715"
         },
         "click": {
             "hashes": [
@@ -1526,11 +1526,11 @@
         },
         "cyclonedx-python-lib": {
             "hashes": [
-                "sha256:86680b824dacd2e77a53b616a738eb71d5ccd3591cfa8fcdbc790b06c49e5619",
-                "sha256:b8ff2a5c67f6add4104f38727c9c656dcf48e0089d87b8cd73b2cc944bd8b56e"
+                "sha256:ba7297148c0f3a72ed3395495080be86a344539084f9d4df9c0f3b466e4f6e54",
+                "sha256:ea2d5393a3de4a347e9c99c6c59efe4e3f64da2fb48e80f3e350fee289fa8a73"
             ],
             "markers": "python_version >= '3.6' and python_version < '4'",
-            "version": "==1.1.0"
+            "version": "==0.12.3"
         },
         "decorator": {
             "hashes": [
