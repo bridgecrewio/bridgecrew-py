@@ -268,11 +268,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:7892b97a4b7f0068967680ef434d943b57c5ca6a55cb6d74615d0cd4a7f0fb7f",
-                "sha256:cda5591123dd7168d30bc911bb471ef7c6d77dd47be54a119e55a1542e9a1a59"
+                "sha256:31df0abc02fc162662396c93ac41b93d16d722af6fb2bf4ecb4f63b8c62912c0",
+                "sha256:eba3c532dfea85a26db6cebc182217c09475a0dc1da59d1104c1a01c90f95b3b"
             ],
             "index": "pypi",
-            "version": "==2.0.723"
+            "version": "==2.0.727"
         },
         "click": {
             "hashes": [
@@ -809,10 +809,10 @@
         },
         "policyuniverse": {
             "hashes": [
-                "sha256:184f854fc716754ff07cd9f601923d1ce30a6826617e7c2b252abebe76746b6d",
-                "sha256:44145447d473c37ff2776667b5e1018a00c0a493c16a0a489399521b3786a8be"
+                "sha256:116b808554d7ea75efc97b4cb904085546db45934ef315175cb4755c7a4489de",
+                "sha256:7440ac520bb791e0318e3d99f9b0e76b7b2b604e7160f1d8341ded060f9ff1cd"
             ],
-            "version": "==1.4.0.20210819"
+            "version": "==1.4.0.20220110"
         },
         "pycares": {
             "hashes": [
@@ -1470,11 +1470,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:7892b97a4b7f0068967680ef434d943b57c5ca6a55cb6d74615d0cd4a7f0fb7f",
-                "sha256:cda5591123dd7168d30bc911bb471ef7c6d77dd47be54a119e55a1542e9a1a59"
+                "sha256:31df0abc02fc162662396c93ac41b93d16d722af6fb2bf4ecb4f63b8c62912c0",
+                "sha256:eba3c532dfea85a26db6cebc182217c09475a0dc1da59d1104c1a01c90f95b3b"
             ],
             "index": "pypi",
-            "version": "==2.0.723"
+            "version": "==2.0.727"
         },
         "click": {
             "hashes": [
@@ -1930,10 +1930,10 @@
         },
         "policyuniverse": {
             "hashes": [
-                "sha256:184f854fc716754ff07cd9f601923d1ce30a6826617e7c2b252abebe76746b6d",
-                "sha256:44145447d473c37ff2776667b5e1018a00c0a493c16a0a489399521b3786a8be"
+                "sha256:116b808554d7ea75efc97b4cb904085546db45934ef315175cb4755c7a4489de",
+                "sha256:7440ac520bb791e0318e3d99f9b0e76b7b2b604e7160f1d8341ded060f9ff1cd"
             ],
-            "version": "==1.4.0.20210819"
+            "version": "==1.4.0.20220110"
         },
         "pycares": {
             "hashes": [
