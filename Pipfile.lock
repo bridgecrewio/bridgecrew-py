@@ -143,11 +143,11 @@
         },
         "bc-python-hcl2": {
             "hashes": [
-                "sha256:74e4b21d329b6bd9396617d075b835e5c0cb2ecdbd951fee631886de81f69c80",
-                "sha256:db2f14874cd049a7d05d56f0c14e6c6993975e62ef307c22b3b68091531ed38a"
+                "sha256:a5c1050d0166b43cc7c30d872c07fdaef3ab7fd1749d7e53f52a0f7d6a53a24a",
+                "sha256:c1f71320f29b30f6bbc695f3905b719f11b66511734f0df910fedfe33c07c5cb"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==0.3.28"
+            "version": "==0.3.30"
         },
         "beautifulsoup4": {
             "hashes": [
@@ -268,11 +268,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:2470472f3b81ca0b3b7895ba82810539775f1977ba5c64cccd53c5be0ad95f86",
-                "sha256:6c516474f1a0ff2c7b123d015bc5a9790967e8366f2ec1d998d368990101792b"
+                "sha256:28d0c09891c2d603ddbe1e40b5de9a2fbf8c75156a6c184ffc7ac085452e3f25",
+                "sha256:30bedf681fe4107d885585c5146dc7864075132356bfe1addff75d31aa11236d"
             ],
             "index": "pypi",
-            "version": "==2.0.857"
+            "version": "==2.0.858"
         },
         "click": {
             "hashes": [
@@ -1342,11 +1342,11 @@
         },
         "bc-python-hcl2": {
             "hashes": [
-                "sha256:74e4b21d329b6bd9396617d075b835e5c0cb2ecdbd951fee631886de81f69c80",
-                "sha256:db2f14874cd049a7d05d56f0c14e6c6993975e62ef307c22b3b68091531ed38a"
+                "sha256:a5c1050d0166b43cc7c30d872c07fdaef3ab7fd1749d7e53f52a0f7d6a53a24a",
+                "sha256:c1f71320f29b30f6bbc695f3905b719f11b66511734f0df910fedfe33c07c5cb"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==0.3.28"
+            "version": "==0.3.30"
         },
         "beautifulsoup4": {
             "hashes": [
@@ -1459,11 +1459,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:2470472f3b81ca0b3b7895ba82810539775f1977ba5c64cccd53c5be0ad95f86",
-                "sha256:6c516474f1a0ff2c7b123d015bc5a9790967e8366f2ec1d998d368990101792b"
+                "sha256:28d0c09891c2d603ddbe1e40b5de9a2fbf8c75156a6c184ffc7ac085452e3f25",
+                "sha256:30bedf681fe4107d885585c5146dc7864075132356bfe1addff75d31aa11236d"
             ],
             "index": "pypi",
-            "version": "==2.0.857"
+            "version": "==2.0.858"
         },
         "click": {
             "hashes": [
