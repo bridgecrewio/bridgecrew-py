@@ -67,9 +67,9 @@ echo "BC_REPOSITORY_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}""
 echo "input_soft_fail:$INPUT_SOFT_FAIL"
 
 if [[ -z "$INPUT_SOFT_FAIL" ]]; then
-    echo hard-file "::add-matcher::bridgecrew-problem-matcher.json"
+    echo "::add-matcher::bridgecrew-problem-matcher.json"
 else
-    echo soft-fail "::add-matcher::bridgecrew-problem-matcher-warning.json"
+    echo "::add-matcher::bridgecrew-problem-matcher-warning.json"
 fi
 
 #see what command was executed inside the logic
