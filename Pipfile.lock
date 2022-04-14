@@ -268,11 +268,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:b67c13bcdfe3b6d17d2177f4599d5230dde2323f7ef3c54f6652256748738f84",
-                "sha256:b85d0129ba1ee11bb7256cb43d2787299f6ddf5b71def9441008e71791891a62"
+                "sha256:9a579f02587fbc43cacdacf6145076ddad113ec107a3c326de27009554b8bf14",
+                "sha256:c7e78c0dc79412d06853d41d730a34d8c23d82e84d314b58af6f0581968d147d"
             ],
             "index": "pypi",
-            "version": "==2.0.1063"
+            "version": "==2.0.1064"
         },
         "click": {
             "hashes": [
@@ -1100,11 +1100,11 @@
         },
         "soupsieve": {
             "hashes": [
-                "sha256:0bcc6d7432153063e3df09c3ac9442af3eba488715bfcad6a4c38ccb2a523124",
-                "sha256:a714129d3021ec17ce5be346b1007300558b378332c289a1a20e7d4de6ff18a5"
+                "sha256:3b2503d3c7084a42b1ebd08116e5f81aadfaea95863628c80a3b774a11b7c759",
+                "sha256:fc53893b3da2c33de295667a0e19f078c14bf86544af307354de5fcf12a3f30d"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==2.3.2"
+            "version": "==2.3.2.post1"
         },
         "tabulate": {
             "hashes": [
@@ -1534,11 +1534,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:b67c13bcdfe3b6d17d2177f4599d5230dde2323f7ef3c54f6652256748738f84",
-                "sha256:b85d0129ba1ee11bb7256cb43d2787299f6ddf5b71def9441008e71791891a62"
+                "sha256:9a579f02587fbc43cacdacf6145076ddad113ec107a3c326de27009554b8bf14",
+                "sha256:c7e78c0dc79412d06853d41d730a34d8c23d82e84d314b58af6f0581968d147d"
             ],
             "index": "pypi",
-            "version": "==2.0.1063"
+            "version": "==2.0.1064"
         },
         "click": {
             "hashes": [
@@ -2223,11 +2223,11 @@
         },
         "soupsieve": {
             "hashes": [
-                "sha256:0bcc6d7432153063e3df09c3ac9442af3eba488715bfcad6a4c38ccb2a523124",
-                "sha256:a714129d3021ec17ce5be346b1007300558b378332c289a1a20e7d4de6ff18a5"
+                "sha256:3b2503d3c7084a42b1ebd08116e5f81aadfaea95863628c80a3b774a11b7c759",
+                "sha256:fc53893b3da2c33de295667a0e19f078c14bf86544af307354de5fcf12a3f30d"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==2.3.2"
+            "version": "==2.3.2.post1"
         },
         "tabulate": {
             "hashes": [
