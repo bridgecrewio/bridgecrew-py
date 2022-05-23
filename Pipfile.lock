@@ -269,11 +269,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1bff8bfe969afb5556e0ea9b33ed1dfd1fc18c35ab5a9173a39de4dd0d942748",
-                "sha256:96898345ccdbe917899e423cf45be6c6aa73b8a4846e2542d62bcc17e0924d40"
+                "sha256:7bae1e7629896bce17a1bd5853ff07f9faa70f87afd49de188fff42ccd69290b",
+                "sha256:95d41e7737ee855730ff83f5f38ce693d40ddcacc85c63bc43f4f1810ac543c9"
             ],
             "index": "pypi",
-            "version": "==2.0.1157"
+            "version": "==2.0.1158"
         },
         "click": {
             "hashes": [
@@ -1041,11 +1041,11 @@
         },
         "rich": {
             "hashes": [
-                "sha256:abcecd4444fa27cf84de412f713305e0d5481c941f12fc202fa4fc6711f80feb",
-                "sha256:cd8c809da089740f4bd94fa6d544cf23421d4bad34988569c2d03fdbdb858f0d"
+                "sha256:26ef784599a9ab905ade34ff28904e4fbe9bce16e02c33c78b0229551104c146",
+                "sha256:e7550ca19aec51b216ae4c34bfce82e94a0c79bdbf95cafbf42f343d0fb3f45a"
             ],
             "markers": "python_version < '4.0' and python_full_version >= '3.6.3'",
-            "version": "==12.4.2"
+            "version": "==12.4.3"
         },
         "s3transfer": {
             "hashes": [
@@ -1547,11 +1547,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1bff8bfe969afb5556e0ea9b33ed1dfd1fc18c35ab5a9173a39de4dd0d942748",
-                "sha256:96898345ccdbe917899e423cf45be6c6aa73b8a4846e2542d62bcc17e0924d40"
+                "sha256:7bae1e7629896bce17a1bd5853ff07f9faa70f87afd49de188fff42ccd69290b",
+                "sha256:95d41e7737ee855730ff83f5f38ce693d40ddcacc85c63bc43f4f1810ac543c9"
             ],
             "index": "pypi",
-            "version": "==2.0.1157"
+            "version": "==2.0.1158"
         },
         "click": {
             "hashes": [
