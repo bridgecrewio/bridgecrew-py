@@ -15,23 +15,51 @@ cp /usr/local/lib/bridgecrew-problem-matcher-warning.json "$warning_matcher_path
 
 export BC_SOURCE=githubActions
 
-[[ ! -z "$INPUT_CHECK" ]] && CHECK_FLAG="--check $INPUT_CHECK"
-[[ ! -z "$INPUT_SKIP_CHECK" ]] && SKIP_CHECK_FLAG="--skip-check $INPUT_SKIP_CHECK"
-[[ ! -z "$INPUT_EXTERNAL_CHECKS_DIR" ]] && EXTERNAL_CHECKS_DIR_FLAG="--external-checks-dir $INPUT_EXTERNAL_CHECKS_DIR"
-[[ ! -z "$INPUT_OUTPUT_FORMAT" ]] && OUTPUT_FLAG="-o $INPUT_OUTPUT_FORMAT"
-[[ ! -z "$INPUT_DOWNLOAD_EXTERNAL_MODULES" ]] && DOWNLOAD_EXTERNAL_MODULES_FLAG="--download-external-modules $INPUT_DOWNLOAD_EXTERNAL_MODULES"
+[[ -n "$INPUT_CHECK" ]] && CHECK_FLAG="--check $INPUT_CHECK"
+[[ -n "$INPUT_SKIP_CHECK" ]] && SKIP_CHECK_FLAG="--skip-check $INPUT_SKIP_CHECK"
+[[ -n "$INPUT_FRAMEWORK" ]] && FRAMEWORK_FLAG="--framework $INPUT_FRAMEWORK"
+[[ -n "$INPUT_OUTPUT_FORMAT" ]] && OUTPUT_FLAG="--output $INPUT_OUTPUT_FORMAT"
+[[ -n "$INPUT_BASELINE" ]] && BASELINE_FLAG="--baseline $INPUT_BASELINE"
 [[ -n "$INPUT_CONFIG_FILE" ]] && CONFIG_FILE_FLAG="--config-file $INPUT_CONFIG_FILE"
+[[ -n "$INPUT_SOFT_FAIL_ON" ]] && SOFT_FAIL_ON_FLAG="--soft-fail-on $INPUT_SOFT_FAIL_ON"
+[[ -n "$INPUT_HARD_FAIL_ON" ]] && HARD_FAIL_ON_FLAG="--hard-fail-on $INPUT_HARD_FAIL_ON"
 
-if [ ! -z "$INPUT_QUIET" ] && [ "$INPUT_QUIET" = "true" ]; then
+if [ -n "$INPUT_COMPACT" ] && [ "$INPUT_COMPACT" = "true" ]; then
+  COMPACT_FLAG="--compact"
+fi
+
+if [ -n "$INPUT_QUIET" ] && [ "$INPUT_QUIET" = "true" ]; then
   QUIET_FLAG="--quiet"
 fi
 
-if [ ! -z "$INPUT_SOFT_FAIL" ] && [ "$INPUT_SOFT_FAIL" =  "true" ]; then
+if [ -n "$INPUT_DOWNLOAD_EXTERNAL_MODULES" ] && [ "$INPUT_DOWNLOAD_EXTERNAL_MODULES" = "true" ]; then
+  DOWNLOAD_EXTERNAL_MODULES_FLAG="--download-external-modules true"
+fi
+
+if [ -n "$INPUT_SOFT_FAIL" ] && [ "$INPUT_SOFT_FAIL" =  "true" ]; then
   SOFT_FAIL_FLAG="--soft-fail"
 fi
 
-if [ ! -z "$LOG_LEVEL" ]; then
-  export LOG_LEVEL
+if [ -n "$INPUT_LOG_LEVEL" ]; then
+  export LOG_LEVEL=$INPUT_LOG_LEVEL
+fi
+
+EXTCHECK_DIRS_FLAG=""
+if [ -n "$INPUT_EXTERNAL_CHECKS_DIRS" ]; then
+  IFS=', ' read -r -a extchecks_dir <<< "$INPUT_EXTERNAL_CHECKS_DIRS"
+  for d in "${extchecks_dir[@]}"
+  do
+    EXTCHECK_DIRS_FLAG="$EXTCHECK_DIRS_FLAG --external-checks-dir $d"
+  done
+fi
+
+EXTCHECK_REPOS_FLAG=""
+if [ -n "$INPUT_EXTERNAL_CHECKS_REPOS" ]; then
+  IFS=', ' read -r -a extchecks_git <<< "$INPUT_EXTERNAL_CHECKS_REPOS"
+  for repo in "${extchecks_git[@]}"
+  do
+    EXTCHECK_REPOS_FLAG="$EXTCHECK_REPOS_FLAG --external-checks-git $repo"
+  done
 fi
 
 NONE=none
