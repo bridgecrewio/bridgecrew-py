@@ -264,16 +264,16 @@
                 "sha256:2857e29ff0d34db842cd7ca3230549d1a697f96ee6d3fb071cfa6c7393832597",
                 "sha256:6881edbebdb17b39b4eaaa821b438bf6eddffb4468cf344f09f89def34a8b1df"
             ],
-            "markers": "python_version >= '3.5'",
+            "markers": "python_full_version >= '3.5.0'",
             "version": "==2.0.12"
         },
         "checkov": {
             "hashes": [
-                "sha256:85d1d93334b8694786c240956470dd8717252bb1f647861b5e7133f8c0ea0fff",
-                "sha256:9abadd1bd6da099dffde82e07118ba9c5313cc246159e1fd4ba4115afb0afb5b"
+                "sha256:175495ba33ff5b23aafbeeebe48a1f0fb6cdec227a44922890e25d44c99815f5",
+                "sha256:e4917ed62dda6434f83a31e74f2c564999280303da5d845ec9d020853ba93678"
             ],
             "index": "pypi",
-            "version": "==2.0.1173"
+            "version": "==2.0.1174"
         },
         "click": {
             "hashes": [
@@ -371,7 +371,7 @@
                 "sha256:637996211036b6385ef91435e4fae22989472f9d571faba8927ba8253acbc330",
                 "sha256:b8c3f85900b9dc423225913c5aace94729fe1fa9763b38939a95226f02d37186"
             ],
-            "markers": "python_version >= '3.5'",
+            "markers": "python_full_version >= '3.5.0'",
             "version": "==5.1.1"
         },
         "deep-merge": {
@@ -1542,16 +1542,16 @@
                 "sha256:2857e29ff0d34db842cd7ca3230549d1a697f96ee6d3fb071cfa6c7393832597",
                 "sha256:6881edbebdb17b39b4eaaa821b438bf6eddffb4468cf344f09f89def34a8b1df"
             ],
-            "markers": "python_version >= '3.5'",
+            "markers": "python_full_version >= '3.5.0'",
             "version": "==2.0.12"
         },
         "checkov": {
             "hashes": [
-                "sha256:85d1d93334b8694786c240956470dd8717252bb1f647861b5e7133f8c0ea0fff",
-                "sha256:9abadd1bd6da099dffde82e07118ba9c5313cc246159e1fd4ba4115afb0afb5b"
+                "sha256:175495ba33ff5b23aafbeeebe48a1f0fb6cdec227a44922890e25d44c99815f5",
+                "sha256:e4917ed62dda6434f83a31e74f2c564999280303da5d845ec9d020853ba93678"
             ],
             "index": "pypi",
-            "version": "==2.0.1173"
+            "version": "==2.0.1174"
         },
         "click": {
             "hashes": [
@@ -1614,7 +1614,7 @@
                 "sha256:637996211036b6385ef91435e4fae22989472f9d571faba8927ba8253acbc330",
                 "sha256:b8c3f85900b9dc423225913c5aace94729fe1fa9763b38939a95226f02d37186"
             ],
-            "markers": "python_version >= '3.5'",
+            "markers": "python_full_version >= '3.5.0'",
             "version": "==5.1.1"
         },
         "deep-merge": {
