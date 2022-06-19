@@ -44,7 +44,6 @@ if [ -n "$INPUT_LOG_LEVEL" ]; then
   export LOG_LEVEL=$INPUT_LOG_LEVEL
 fi
 
-[[ -n "$INPUT_CHECK" ]] &&  ="--check $INPUT_CHECK"
 CHECK_FLAG=""
 if [ -n "$INPUT_CHECK" ]; then
   IFS=', ' read -r -a checks <<< "$INPUT_CHECK"
