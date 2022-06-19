@@ -15,7 +15,6 @@ cp /usr/local/lib/bridgecrew-problem-matcher-warning.json "$warning_matcher_path
 
 export BC_SOURCE=githubActions
 
-[[ -n "$INPUT_CHECK" ]] && CHECK_FLAG="--check $INPUT_CHECK"
 [[ -n "$INPUT_SKIP_CHECK" ]] && SKIP_CHECK_FLAG="--skip-check $INPUT_SKIP_CHECK"
 [[ -n "$INPUT_FRAMEWORK" ]] && FRAMEWORK_FLAG="--framework $INPUT_FRAMEWORK"
 [[ -n "$INPUT_OUTPUT_FORMAT" ]] && OUTPUT_FLAG="--output $INPUT_OUTPUT_FORMAT"
@@ -43,6 +42,15 @@ fi
 
 if [ -n "$INPUT_LOG_LEVEL" ]; then
   export LOG_LEVEL=$INPUT_LOG_LEVEL
+fi
+
+CHECK_FLAG=""
+if [ -n "$INPUT_CHECK" ]; then
+  IFS=', ' read -r -a checks <<< "$INPUT_CHECK"
+  for d in "${checks[@]}"
+  do
+    CHECK_FLAG="$CHECK_FLAG --check $d"
+  done
 fi
 
 EXTCHECK_DIRS_FLAG=""
