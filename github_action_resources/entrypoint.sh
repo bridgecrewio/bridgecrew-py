@@ -58,7 +58,7 @@ if [ -n "$INPUT_EXTERNAL_CHECKS_DIRS" ]; then
   IFS=', ' read -r -a extchecks_dir <<< "$INPUT_EXTERNAL_CHECKS_DIRS"
   for d in "${extchecks_dir[@]}"
   do
-    EXTCHECK_DIRS_FLAG="$EXTCHECK_DIRS_FLAG --check $d"
+    EXTCHECK_DIRS_FLAG="$EXTCHECK_DIRS_FLAG --external-checks-dir $d"
   done
 fi
 
