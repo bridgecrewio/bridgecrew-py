@@ -269,11 +269,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:dd0c78e129c85d17cc19987d477a8aebceacab7696dafa884e48c964b9e30569",
-                "sha256:fba04333d61a6b8d39c8b3b7fc6988e9d0a2793660a0c02e5de5320bdb068da3"
+                "sha256:0a7217350eb953ba2a0939d79cc499da384e877b5d16abf1c0fff7d15113e08c",
+                "sha256:1699d8e720973ab38a1624359409755571bbf2e75d6ea2607c92043ea25d2d9c"
             ],
             "index": "pypi",
-            "version": "==2.0.1222"
+            "version": "==2.0.1223"
         },
         "click": {
             "hashes": [
@@ -360,11 +360,11 @@
         },
         "cyclonedx-python-lib": {
             "hashes": [
-                "sha256:7a3aebcc1603e2cb0bc13ebf4274d2bd28ee46d199a7c2c05bd9d823ea7143e4",
-                "sha256:875c0dac4c8be1da58cef399eb09ceba8668a153d2bfed67b7af8bdbca5bad61"
+                "sha256:06242c2a61033c4112b41b4f55d3b5130bc2a7bc6107a7b4950eac2431351963",
+                "sha256:8235aad70efc0f84cdf154b8c28802b605ee8133cd5c9a247d834bdb8b6c827a"
             ],
             "markers": "python_version >= '3.6' and python_version < '4'",
-            "version": "==2.5.2"
+            "version": "==2.6.0"
         },
         "decorator": {
             "hashes": [
@@ -1089,11 +1089,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:2a5de5d1ed1fd6dfbe4f1a1079af816032e2d8dfc0975265b57a61429511d10c",
-                "sha256:a4c782ac58fcc9e3a86e5e1a4c74cf9d24bf21e4f1562043309022e1bb76951c"
+                "sha256:990a4f7861b31532871ab72331e755b5f14efbe52d336ea7f6118144dd478741",
+                "sha256:c1848f654aea2e3526d17fc3ce6aeaa5e7e24e66e645b5be2171f3f6b4e5a178"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==62.5.0"
+            "version": "==62.6.0"
         },
         "six": {
             "hashes": [
@@ -1202,11 +1202,11 @@
         },
         "websocket-client": {
             "hashes": [
-                "sha256:50b21db0058f7a953d67cc0445be4b948d7fc196ecbeb8083d68d94628e4abf6",
-                "sha256:722b171be00f2b90e1d4fb2f2b53146a536ca38db1da8ff49c972a4e1365d0ef"
+                "sha256:5d55652dc1d0b3c734f044337d929aaf83f4f9138816ec680c1aefefb4dc4877",
+                "sha256:d58c5f284d6a9bf8379dab423259fe8f85b70d5fa5d2916d5791a84594b122b1"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.3.2"
+            "version": "==1.3.3"
         },
         "yarl": {
             "hashes": [
@@ -1541,11 +1541,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:dd0c78e129c85d17cc19987d477a8aebceacab7696dafa884e48c964b9e30569",
-                "sha256:fba04333d61a6b8d39c8b3b7fc6988e9d0a2793660a0c02e5de5320bdb068da3"
+                "sha256:0a7217350eb953ba2a0939d79cc499da384e877b5d16abf1c0fff7d15113e08c",
+                "sha256:1699d8e720973ab38a1624359409755571bbf2e75d6ea2607c92043ea25d2d9c"
             ],
             "index": "pypi",
-            "version": "==2.0.1222"
+            "version": "==2.0.1223"
         },
         "click": {
             "hashes": [
@@ -1597,11 +1597,11 @@
         },
         "cyclonedx-python-lib": {
             "hashes": [
-                "sha256:7a3aebcc1603e2cb0bc13ebf4274d2bd28ee46d199a7c2c05bd9d823ea7143e4",
-                "sha256:875c0dac4c8be1da58cef399eb09ceba8668a153d2bfed67b7af8bdbca5bad61"
+                "sha256:06242c2a61033c4112b41b4f55d3b5130bc2a7bc6107a7b4950eac2431351963",
+                "sha256:8235aad70efc0f84cdf154b8c28802b605ee8133cd5c9a247d834bdb8b6c827a"
             ],
             "markers": "python_version >= '3.6' and python_version < '4'",
-            "version": "==2.5.2"
+            "version": "==2.6.0"
         },
         "decorator": {
             "hashes": [
@@ -2215,11 +2215,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:2a5de5d1ed1fd6dfbe4f1a1079af816032e2d8dfc0975265b57a61429511d10c",
-                "sha256:a4c782ac58fcc9e3a86e5e1a4c74cf9d24bf21e4f1562043309022e1bb76951c"
+                "sha256:990a4f7861b31532871ab72331e755b5f14efbe52d336ea7f6118144dd478741",
+                "sha256:c1848f654aea2e3526d17fc3ce6aeaa5e7e24e66e645b5be2171f3f6b4e5a178"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==62.5.0"
+            "version": "==62.6.0"
         },
         "six": {
             "hashes": [
@@ -2313,11 +2313,11 @@
         },
         "websocket-client": {
             "hashes": [
-                "sha256:50b21db0058f7a953d67cc0445be4b948d7fc196ecbeb8083d68d94628e4abf6",
-                "sha256:722b171be00f2b90e1d4fb2f2b53146a536ca38db1da8ff49c972a4e1365d0ef"
+                "sha256:5d55652dc1d0b3c734f044337d929aaf83f4f9138816ec680c1aefefb4dc4877",
+                "sha256:d58c5f284d6a9bf8379dab423259fe8f85b70d5fa5d2916d5791a84594b122b1"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.3.2"
+            "version": "==1.3.3"
         },
         "yarl": {
             "hashes": [
