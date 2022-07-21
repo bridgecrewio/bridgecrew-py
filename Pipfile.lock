@@ -167,19 +167,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:2ef6d6439b671cf130fba80fae8889bc39ee0ee0bffc39cda93ddadf98c1e91a",
-                "sha256:b4ce793771bae95223d988c1a86cdcef0831fb622dbf9ae7b92ef396bb223ee8"
+                "sha256:5c775dcb12ca5d6be3f5aa3c49d77783faa64eb30fd3f4af93ff116bb42f9ffb",
+                "sha256:5d9bcc355cf6edd7f3849fedac4252e12a0aa2b436cdbc0d4371b16a0f852a30"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.24.33"
+            "version": "==1.24.34"
         },
         "botocore": {
             "hashes": [
-                "sha256:4dc9ac87a0981b60a02d1ea7c4d02bbccd0a79da4731905efcdc90c230182e57",
-                "sha256:bfbeebf2fb9832f9e79635e3320265be94f512de396d3d407ca3538f994ad2c8"
+                "sha256:0d824a5315f5f5c3bea53c14107a69695ef43190edf647f1281bac8f172ca77c",
+                "sha256:9c695d47f1f1212f3e306e51f7bacdf67e58055194ddcf7d8296660b124cf135"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.27.33"
+            "version": "==1.27.34"
         },
         "cached-property": {
             "hashes": [
@@ -283,11 +283,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:6e48e0475660fcd21b943c4087a68a8db19eae90a5b342879973a591d105ebe5",
-                "sha256:d22321cfcaf14106942e41f80f8579292a3fcd96ca6ebbd59f9836bbd52c003d"
+                "sha256:beaad48aa26c7d10ceddf7ca6dd053296493cb208ef9f7664003ea627aae2c9f",
+                "sha256:ff9078c26b3370838a80e8fa648cb7ed22ca3a1477451a48ef6244ec722bcdf9"
             ],
             "index": "pypi",
-            "version": "==2.1.65"
+            "version": "==2.1.66"
         },
         "click": {
             "hashes": [
@@ -903,7 +903,7 @@
                 "sha256:34601966f3b4792fb36b6a80a94a9cc46afa7d51fa6278b4f4b1eec8676a4aec",
                 "sha256:557e8355d586a3a7d518f9d122991f273eaab2d0c9229d5feffc9dbbebe3760a"
             ],
-            "markers": "python_version == '3.8' and sys_platform == 'linux' or sys_platform == 'darwin'",
+            "markers": "python_version == '3.8' and (sys_platform == 'linux' or sys_platform == 'darwin') and platform_machine == 'x86_64'",
             "version": "==2.3.4.1"
         },
         "pyston-lite-autoload": {
@@ -911,7 +911,7 @@
                 "sha256:c231317e56a40e9d9b1b9f2ac3627845953fb8e92f49c1ce40d4d616dbacdaf6",
                 "sha256:d2b74f4a1e34ef84ac1974f1eb84133e57171d2f96e96bd0cab574ae1d5fdbcf"
             ],
-            "markers": "python_version == '3.8' and sys_platform == 'linux' or sys_platform == 'darwin'",
+            "markers": "python_version == '3.8' and (sys_platform == 'linux' or sys_platform == 'darwin') and platform_machine == 'x86_64'",
             "version": "==2.3.4.1"
         },
         "python-dateutil": {
@@ -1473,19 +1473,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:2ef6d6439b671cf130fba80fae8889bc39ee0ee0bffc39cda93ddadf98c1e91a",
-                "sha256:b4ce793771bae95223d988c1a86cdcef0831fb622dbf9ae7b92ef396bb223ee8"
+                "sha256:5c775dcb12ca5d6be3f5aa3c49d77783faa64eb30fd3f4af93ff116bb42f9ffb",
+                "sha256:5d9bcc355cf6edd7f3849fedac4252e12a0aa2b436cdbc0d4371b16a0f852a30"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.24.33"
+            "version": "==1.24.34"
         },
         "botocore": {
             "hashes": [
-                "sha256:4dc9ac87a0981b60a02d1ea7c4d02bbccd0a79da4731905efcdc90c230182e57",
-                "sha256:bfbeebf2fb9832f9e79635e3320265be94f512de396d3d407ca3538f994ad2c8"
+                "sha256:0d824a5315f5f5c3bea53c14107a69695ef43190edf647f1281bac8f172ca77c",
+                "sha256:9c695d47f1f1212f3e306e51f7bacdf67e58055194ddcf7d8296660b124cf135"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.27.33"
+            "version": "==1.27.34"
         },
         "cached-property": {
             "hashes": [
@@ -1589,11 +1589,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:6e48e0475660fcd21b943c4087a68a8db19eae90a5b342879973a591d105ebe5",
-                "sha256:d22321cfcaf14106942e41f80f8579292a3fcd96ca6ebbd59f9836bbd52c003d"
+                "sha256:beaad48aa26c7d10ceddf7ca6dd053296493cb208ef9f7664003ea627aae2c9f",
+                "sha256:ff9078c26b3370838a80e8fa648cb7ed22ca3a1477451a48ef6244ec722bcdf9"
             ],
             "index": "pypi",
-            "version": "==2.1.65"
+            "version": "==2.1.66"
         },
         "click": {
             "hashes": [
@@ -2110,7 +2110,7 @@
                 "sha256:34601966f3b4792fb36b6a80a94a9cc46afa7d51fa6278b4f4b1eec8676a4aec",
                 "sha256:557e8355d586a3a7d518f9d122991f273eaab2d0c9229d5feffc9dbbebe3760a"
             ],
-            "markers": "python_version == '3.8' and sys_platform == 'linux' or sys_platform == 'darwin'",
+            "markers": "python_version == '3.8' and (sys_platform == 'linux' or sys_platform == 'darwin') and platform_machine == 'x86_64'",
             "version": "==2.3.4.1"
         },
         "pyston-lite-autoload": {
@@ -2118,7 +2118,7 @@
                 "sha256:c231317e56a40e9d9b1b9f2ac3627845953fb8e92f49c1ce40d4d616dbacdaf6",
                 "sha256:d2b74f4a1e34ef84ac1974f1eb84133e57171d2f96e96bd0cab574ae1d5fdbcf"
             ],
-            "markers": "python_version == '3.8' and sys_platform == 'linux' or sys_platform == 'darwin'",
+            "markers": "python_version == '3.8' and (sys_platform == 'linux' or sys_platform == 'darwin') and platform_machine == 'x86_64'",
             "version": "==2.3.4.1"
         },
         "python-dateutil": {
