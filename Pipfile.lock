@@ -306,11 +306,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:e2a1bd7cf4fd20694ecd44dceb78dc7331ce5d8bdc6e6e2beabeb2227c43a952",
-                "sha256:fbec6ba1b0605ef91f8812438cafa5286c342c60c2ceacff87e9207793154797"
+                "sha256:81d8427549b72dc13ad5eb035f587df0389753d5b7ec244677f146e12790716f",
+                "sha256:ff233467edba8168580a8ddc6a2bf96a4d62feea229159ff1ea7502545be8d0d"
             ],
             "index": "pypi",
-            "version": "==2.1.267"
+            "version": "==2.1.268"
         },
         "click": {
             "hashes": [
@@ -322,11 +322,11 @@
         },
         "click-option-group": {
             "hashes": [
-                "sha256:0976f0dd15ab5f9f2ee0823f4b83c5a84f8748668c0c37a334739b287711940d",
-                "sha256:d4b8d808a1998f0f277ebe13c33d64863a5b2a619b1e54f67bc6e3723d91b910"
+                "sha256:0f8ca79bc9b1d6fcaafdbe194b17ba1a2dde44ddf19087235c3efed2ad288143",
+                "sha256:78ee474f07a0ca0ef6c0317bb3ebe79387aafb0c4a1e03b1d8b2b0be1e42fc78"
             ],
             "markers": "python_version >= '3.6' and python_version < '4'",
-            "version": "==0.5.4"
+            "version": "==0.5.5"
         },
         "cloudsplaining": {
             "hashes": [
@@ -1693,11 +1693,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:e2a1bd7cf4fd20694ecd44dceb78dc7331ce5d8bdc6e6e2beabeb2227c43a952",
-                "sha256:fbec6ba1b0605ef91f8812438cafa5286c342c60c2ceacff87e9207793154797"
+                "sha256:81d8427549b72dc13ad5eb035f587df0389753d5b7ec244677f146e12790716f",
+                "sha256:ff233467edba8168580a8ddc6a2bf96a4d62feea229159ff1ea7502545be8d0d"
             ],
             "index": "pypi",
-            "version": "==2.1.267"
+            "version": "==2.1.268"
         },
         "click": {
             "hashes": [
@@ -1709,11 +1709,11 @@
         },
         "click-option-group": {
             "hashes": [
-                "sha256:0976f0dd15ab5f9f2ee0823f4b83c5a84f8748668c0c37a334739b287711940d",
-                "sha256:d4b8d808a1998f0f277ebe13c33d64863a5b2a619b1e54f67bc6e3723d91b910"
+                "sha256:0f8ca79bc9b1d6fcaafdbe194b17ba1a2dde44ddf19087235c3efed2ad288143",
+                "sha256:78ee474f07a0ca0ef6c0317bb3ebe79387aafb0c4a1e03b1d8b2b0be1e42fc78"
             ],
             "markers": "python_version >= '3.6' and python_version < '4'",
-            "version": "==0.5.4"
+            "version": "==0.5.5"
         },
         "cloudsplaining": {
             "hashes": [
