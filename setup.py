@@ -44,7 +44,7 @@ setup(
     author_email="meet@bridgecrew.io",
     url="https://github.com/bridgecrewio/bridgecrew",
     packages=setuptools.find_packages(exclude=["tests*"]),
-    scripts=["bin/bridgecrew","bin/bridgecrew.cmd"],
+    scripts=["bin/bridgecrew", "bin/bridgecrew.cmd"],
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[

@@ -1,10 +1,6 @@
-FROM python:3.7-alpine
+FROM python:3.8-slim
 
-RUN apk add --no-cache git curl util-linux bash
-
-RUN apk add --no-cache --virtual .build_deps build-base libffi-dev \
- && pip install --no-cache-dir -U bridgecrew \
- && apk del .build_deps
+RUN pip install --no-cache-dir -U bridgecrew
 
 COPY ./github_action_resources/entrypoint.sh /entrypoint.sh
 COPY ./github_action_resources/bridgecrew-problem-matcher.json /usr/local/lib/bridgecrew-problem-matcher.json
