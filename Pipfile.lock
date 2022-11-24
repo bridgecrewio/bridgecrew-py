@@ -306,11 +306,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1dbf855e15d7d7871a3ad62bc36c8ee7f5759334f45ccc372f330c2a44d624ad",
-                "sha256:3a7497841057cd3f8f714740f217b9bb3b242294f24af556bbd7af0a5c0d83b3"
+                "sha256:38c756c8f063f04cff88ca284f402fc40f557129f971032c585914b07869ea04",
+                "sha256:a57368f1c06591f63f46e4af503bed89007a732a8c99318f74c8401313ed29ee"
             ],
             "index": "pypi",
-            "version": "==2.2.92"
+            "version": "==2.2.93"
         },
         "click": {
             "hashes": [
@@ -558,11 +558,11 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:da31db32b304314d044d3c12c79bd59e307889b287ad12ff387b3500835fc2ab",
-                "sha256:ddb0e35065e8938f867ed4928d0ae5bf2a53b7773871bfe6bcc7e4fcdc7dea43"
+                "sha256:d5059f9f1e8e41f80e9c56c2ee58811450c31984dfa625329ffd7c0dad88a73b",
+                "sha256:d84d17e21670ec07990e1044a99efe8d615d860fd176fc29ef5c306068fda313"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==5.0.0"
+            "version": "==5.1.0"
         },
         "importlib-resources": {
             "hashes": [
@@ -1717,11 +1717,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:1dbf855e15d7d7871a3ad62bc36c8ee7f5759334f45ccc372f330c2a44d624ad",
-                "sha256:3a7497841057cd3f8f714740f217b9bb3b242294f24af556bbd7af0a5c0d83b3"
+                "sha256:38c756c8f063f04cff88ca284f402fc40f557129f971032c585914b07869ea04",
+                "sha256:a57368f1c06591f63f46e4af503bed89007a732a8c99318f74c8401313ed29ee"
             ],
             "index": "pypi",
-            "version": "==2.2.92"
+            "version": "==2.2.93"
         },
         "click": {
             "hashes": [
@@ -1922,11 +1922,11 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:da31db32b304314d044d3c12c79bd59e307889b287ad12ff387b3500835fc2ab",
-                "sha256:ddb0e35065e8938f867ed4928d0ae5bf2a53b7773871bfe6bcc7e4fcdc7dea43"
+                "sha256:d5059f9f1e8e41f80e9c56c2ee58811450c31984dfa625329ffd7c0dad88a73b",
+                "sha256:d84d17e21670ec07990e1044a99efe8d615d860fd176fc29ef5c306068fda313"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==5.0.0"
+            "version": "==5.1.0"
         },
         "importlib-resources": {
             "hashes": [
