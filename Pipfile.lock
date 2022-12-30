@@ -314,11 +314,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:2849cadccaa51b3ecbf62f951719231f5c3aed4881179388ff98c466922f78d6",
-                "sha256:cada7c4882418dcb4a997205ac74bb33106a7386286ee282a74c946ee01744bf"
+                "sha256:eb98559c28eb979a430d940a0ab9b9aeda3411f10ebc68e0ae49caf9be8fe102",
+                "sha256:fd9c7241b9d8c6a2fb3a3730538f24b31b7df8e23d82514c9bde84e1552b8515"
             ],
             "index": "pypi",
-            "version": "==2.2.220"
+            "version": "==2.2.221"
         },
         "click": {
             "hashes": [
@@ -1207,11 +1207,11 @@
         },
         "rich": {
             "hashes": [
-                "sha256:a4eb26484f2c82589bd9a17c73d32a010b1e29d89f1604cd9bf3a2097b81bb5e",
-                "sha256:ba3a3775974105c221d31141f2c116f4fd65c5ceb0698657a11e9f295ec93fd0"
+                "sha256:12b1d77ee7edf251b741531323f0d990f5f570a4e7c054d0bfb59fb7981ad977",
+                "sha256:3aa9eba7219b8c575c6494446a59f702552efe1aa261e7eeb95548fa586e1950"
             ],
-            "markers": "python_version < '4.0' and python_full_version >= '3.6.3'",
-            "version": "==12.6.0"
+            "markers": "python_version >= '3.7'",
+            "version": "==13.0.0"
         },
         "s3transfer": {
             "hashes": [
@@ -1756,11 +1756,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:2849cadccaa51b3ecbf62f951719231f5c3aed4881179388ff98c466922f78d6",
-                "sha256:cada7c4882418dcb4a997205ac74bb33106a7386286ee282a74c946ee01744bf"
+                "sha256:eb98559c28eb979a430d940a0ab9b9aeda3411f10ebc68e0ae49caf9be8fe102",
+                "sha256:fd9c7241b9d8c6a2fb3a3730538f24b31b7df8e23d82514c9bde84e1552b8515"
             ],
             "index": "pypi",
-            "version": "==2.2.220"
+            "version": "==2.2.221"
         },
         "click": {
             "hashes": [
