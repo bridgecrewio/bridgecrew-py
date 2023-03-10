@@ -8,8 +8,6 @@ checkov = "*"
 
 [packages]
 checkov = "*"
-sarif-om = "*"
-jschema_to_python = "*"
 twine = "*"
 
 [requires]
