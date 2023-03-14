@@ -22,19 +22,8 @@ spec.loader.exec_module(mod)  # type: ignore
 version = mod.version  # type: ignore
 
 setup(
-    extras_require={
-        "dev": [
-            "checkov>={}".format(version),
-            "bc-python-hcl2>=0.3.10",
-            "sarif-om>=1.0.4",
-            "jschema-to-python>=1.2.3"
-        ]
-    },
     install_requires=[
-        "checkov>={}".format(version),
-        "bc-python-hcl2>=0.3.10",
-        "jschema-to-python>=1.2.3",
-        "sarif-om>=1.0.4"
+        f"checkov=={version}",
     ],
     license="Apache License 2.0",
     name="bridgecrew",
@@ -51,7 +40,13 @@ setup(
         'Environment :: Console',
         'Intended Audience :: Developers',
         'Intended Audience :: System Administrators',
-        'Programming Language :: Python :: 3.7',
+        "License :: OSI Approved :: Apache Software License",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         'Topic :: Security',
         'Topic :: Software Development :: Build Tools'
     ]

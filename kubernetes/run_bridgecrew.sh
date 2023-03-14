@@ -33,7 +33,7 @@ export BC_SOURCE=kubernetesWorkloads
 
 for resource in $RESOURCES;
 do
-  kubectl get $resource --all-namespaces -oyaml > /data/runtime.${resource}.yaml
+  kubectl get $resource --all-namespaces -oyaml | yq eval 'del(.items[] | select(.metadata.ownerReferences)) ' -  > /data/runtime.${resource}.yaml
 done
 
 # Skip namespaces if exists 
@@ -55,4 +55,3 @@ if [ -f /etc/bridgecrew/apikey ]; then
 else
   bridgecrew -s -d /data $skip
 fi
-

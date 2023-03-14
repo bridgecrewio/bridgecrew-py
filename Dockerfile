@@ -1,6 +1,6 @@
-FROM python:3.8-slim
+FROM bridgecrew/checkov:2
 
-RUN apt-get update -y && apt-get install curl git -y && pip install --no-cache-dir -U bridgecrew
+RUN pip install --no-cache-dir -U bridgecrew
 
 COPY ./github_action_resources/entrypoint.sh /entrypoint.sh
 COPY ./github_action_resources/bridgecrew-problem-matcher.json /usr/local/lib/bridgecrew-problem-matcher.json
