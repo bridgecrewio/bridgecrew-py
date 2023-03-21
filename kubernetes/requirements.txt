@@ -3,3 +3,4 @@ bridgecrew==2.3.102
 bridgecrew==2.3.103
 bridgecrew==2.3.104
 bridgecrew==2.3.105
+bridgecrew==2.3.106
