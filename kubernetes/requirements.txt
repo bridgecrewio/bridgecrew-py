@@ -31,3 +31,4 @@ bridgecrew==2.3.130
 bridgecrew==2.3.131
 bridgecrew==2.3.132
 bridgecrew==2.3.133
+bridgecrew==2.3.134
