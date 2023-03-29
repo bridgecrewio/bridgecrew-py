@@ -387,11 +387,11 @@
         },
         "checkov": {
             "hashes": [
-                "sha256:62a4485c1659d99b6954113e72b48619a9f016daa41c9313688dfc486b3e4adc",
-                "sha256:6d7a6ac535e27d3a143d85b028437fadca77319836097e5724295198a98e1221"
+                "sha256:6ae9d8656d26fa21024db375c036538c80c8addf06b31a8a5e0cf376c2e1ad70",
+                "sha256:70562e26363aa6f3708f5e17dfa6833b8684b42f392d28d2e86b40e799633343"
             ],
             "index": "pypi",
-            "version": "==2.3.131"
+            "version": "==2.3.132"
         },
         "click": {
             "hashes": [
