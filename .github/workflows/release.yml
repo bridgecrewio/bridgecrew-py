@@ -1,0 +1,89 @@
+name: release
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+
+permissions: read-all
+
+jobs:
+  bump-version:
+    runs-on: [self-hosted, public, linux, x64]
+    environment: release
+    permissions:
+      contents: write
+      # IMPORTANT: this permission is mandatory for trusted publishing to pypi
+      id-token: write
+    steps:
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab  # v3
+        with:
+          fetch-depth: '0'
+      - name: Set up Python 3.7
+        uses: actions/setup-python@57ded4d7d5e986d7296eab16560982c6dd7c923b  # v4
+        with:
+          python-version: 3.7
+
+      - name: update-checkov-version
+        id: checkov_version
+        run: |
+          version=$(curl -s curl -s https://api.github.com/repos/bridgecrewio/checkov/tags | jq -r '.[0].name')          
+          echo "new version: $version"
+
+          ## update python version
+          echo "version = '$version'" > 'bridgecrew/version.py'
+
+          # grab major version for later image tag usage         
+          major_version=$(echo "${version}" | head -c1)
+          echo "major_version=$major_version" >> "$GITHUB_OUTPUT"
+          echo "version=$version" >> $GITHUB_OUTPUT
+      - uses: stefanzweifel/git-auto-commit-action@3ea6ae190baf489ba007f7c92608f33ce20ef04a  # v4
+        id: git_auto_commit
+        with:
+          commit_message: Bump checkov version to ${{ steps.checkov_version.outputs.version }}
+      - name: version-tag
+        uses: anothrNick/github-tag-action@d77194f92b4ca48b05df5c20709984535a9cd6e0  # v1
+        if: steps.git_auto_commit.outputs.changes_detected == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CUSTOM_TAG: ${{ steps.checkov_version.outputs.version }}
+
+      - name: create python package
+        run: |
+          python -m pip install wheel
+          python setup.py sdist bdist_wheel
+      - name: Publish package to PyPI
+        uses: pypa/gh-action-pypi-publish@0bf742be3ebe032c25dd15117957dc15d0cfc38d  # v1
+
+      - name: sleep and wait for package to refresh
+        run: |
+          sleep 2m
+    outputs:
+      version: ${{ steps.checkov_version.outputs.version }}
+      major_version: ${{ steps.checkov_version.outputs.major_version }}
+
+  publish-dockerhub:
+    runs-on: [self-hosted, public, linux, x64]
+    needs: bump-version
+    environment: release
+    steps:
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab  # v3
+      - name: Publish to Registry
+        uses: elgohr/Publish-Docker-Github-Action@43dc228e327224b2eda11c8883232afd5b34943b  # v5
+        with:
+          name: bridgecrew/bridgecrew
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          tags: "latest,${{ needs.bump-version.outputs.version }},${{ needs.bump-version.outputs.major_version }}"
+          dockerfile: Dockerfile
+          buildoptions: "--no-cache"
+
+  update-dependent-projects:
+    needs: publish-dockerhub
+    runs-on: [self-hosted, public, linux, x64]
+    environment: release
+    steps:
+      - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab  # v3
+      - name: update projects
+        run: |
+          # trigger checkov-action update
+          curl -XPOST -u "${{ secrets.GH_PAT_USER}}:${{secrets.GH_PAT_SECRET}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/bridgecrewio/bridgecrew-action/dispatches --data '{"event_type": "build"}'
