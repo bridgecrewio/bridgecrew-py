@@ -56,7 +56,7 @@ jobs:
 
       - name: sleep and wait for package to refresh
         run: |
-          sleep 2m
+          sleep 5m
     outputs:
       version: ${{ steps.checkov_version.outputs.version }}
       major_version: ${{ steps.checkov_version.outputs.major_version }}
