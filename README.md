@@ -1,4 +1,5 @@
 # Bridgecrew Python Package
-[![build status](https://github.com/bridgecrewio/bridgecrew-py/workflows/build/badge.svg)](https://github.com/bridgecrewio/bridgecrew-py/actions?query=workflow%3Abuild) 
+[![build status](https://github.com/bridgecrewio/bridgecrew-py/workflows/release/badge.svg)](https://github.com/bridgecrewio/bridgecrew-py/actions?query=workflow%3Arelease)
+[![PyPI](https://img.shields.io/pypi/v/bridgecrew)](https://pypi.org/project/checkov/)
 
 Wraps checkov with a bridgecrew cli (does exactly the same)
