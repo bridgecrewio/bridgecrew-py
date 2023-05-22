@@ -41,7 +41,7 @@ jobs:
         with:
           commit_message: Bump checkov version to ${{ steps.checkov_version.outputs.version }}
       - name: version-tag
-        uses: anothrNick/github-tag-action@d77194f92b4ca48b05df5c20709984535a9cd6e0  # v1
+        uses: anothrNick/github-tag-action@72703d02f7df0cdb8f27aeb9feafeccd67b49881  # v1
         if: steps.git_auto_commit.outputs.changes_detected == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
