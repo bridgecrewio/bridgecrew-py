@@ -10,4 +10,6 @@ def run():
 
 
 if __name__ == "__main__":
+    print("DEPRECATED: This project is no longer supported and will be archived end of 2023.")
+    print("            Please use checkov instead, pip install checkov")
     run()
