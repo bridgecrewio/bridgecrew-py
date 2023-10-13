@@ -36,7 +36,7 @@ jobs:
           major_version=$(echo "${version}" | head -c1)
           echo "major_version=$major_version" >> "$GITHUB_OUTPUT"
           echo "version=$version" >> $GITHUB_OUTPUT
-      - uses: stefanzweifel/git-auto-commit-action@8756aa072ef5b4a080af5dc8fef36c5d586e521d  # v4
+      - uses: stefanzweifel/git-auto-commit-action@8756aa072ef5b4a080af5dc8fef36c5d586e521d  # v5
         id: git_auto_commit
         with:
           commit_message: Bump checkov version to ${{ steps.checkov_version.outputs.version }}
