@@ -15,7 +15,7 @@ jobs:
       # IMPORTANT: this permission is mandatory for trusted publishing to pypi
       id-token: write
     steps:
-      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9  # v3
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608  # v3
         with:
           fetch-depth: '0'
       - name: Set up Python 3.7
@@ -66,7 +66,7 @@ jobs:
     needs: bump-version
     environment: release
     steps:
-      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9  # v3
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608  # v3
       - name: Publish to Registry
         uses: elgohr/Publish-Docker-Github-Action@43dc228e327224b2eda11c8883232afd5b34943b  # v5
         with:
@@ -82,7 +82,7 @@ jobs:
     runs-on: [self-hosted, public, linux, x64]
     environment: release
     steps:
-      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9  # v3
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608  # v3
       - name: update projects
         run: |
           # trigger checkov-action update
